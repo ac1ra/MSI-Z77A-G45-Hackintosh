@@ -1,0 +1,14 @@
+Codecs Detecteds:
+
+Vendor: AMD/ATI DP/HDMI
+Name: R6xx
+Codec: 0x1002aa01
+
+Vendor: ONBOARD
+Name: Realtek ALC892
+Codec: 0x10ec0892
+
+(AppleHDA)	Realtek ALC892 (10ec:0892) Rev.(00100302)
+		Controller 8086:1e20 (sub-ven:1462:f758)
+(AppleHDA)	ATI R6xx HDMI (1002:aa01) Rev.(00100300)
+		Controller 1002:aaa0 (sub-ven:1043:aaa0)

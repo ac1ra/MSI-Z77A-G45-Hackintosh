@@ -1,0 +1,947 @@
+Extract boot log from 2019-01-9 23:31:14
+2019-01-09 23:32:14.000037+0100 0x0        Default     0x0                  0      0    kernel: PMAP: PCID enabled
+2019-01-09 23:32:14.000040+0100 0x0        Default     0x0                  0      0    kernel: PMAP: Supervisor Mode Execute Protection enabled
+2019-01-09 23:32:14.000068+0100 0x0        Default     0x0                  0      0    kernel: Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64
+2019-01-09 23:32:14.112262+0100 0x0        Default     0x0                  0      0    kernel: vm_page_bootstrap: 3984654 free pages and 176882 wired pages
+2019-01-09 23:32:14.133029+0100 0x0        Default     0x0                  0      0    kernel: kext submap [0x<private> - 0x<private>], kernel text [0x<private> - 0x<private>]
+2019-01-09 23:32:14.133034+0100 0x0        Default     0x0                  0      0    kernel: zone leak detection enabled
+2019-01-09 23:32:14.133036+0100 0x0        Default     0x0                  0      0    kernel: zalloc: allocating memory for zone names buffer
+2019-01-09 23:32:14.133092+0100 0x0        Default     0x0                  0      0    kernel: "vm_compressor_mode" is 4
+2019-01-09 23:32:14.133135+0100 0x0        Default     0x0                  0      0    kernel: oslog_init completed, 16 chunks, 8 io pages
+2019-01-09 23:32:14.133147+0100 0x0        Default     0x0                  0      0    kernel: standard timeslicing quantum is 10000 us
+2019-01-09 23:32:14.133149+0100 0x0        Default     0x0                  0      0    kernel: standard background quantum is 2500 us
+2019-01-09 23:32:14.133195+0100 0x0        Default     0x0                  0      0    kernel: WQ[wql_init]: init linktable with max:262144 elements (8388608 bytes)
+2019-01-09 23:32:14.133205+0100 0x0        Default     0x0                  0      0    kernel: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+2019-01-09 23:32:14.133232+0100 0x0        Default     0x0                  0      0    kernel: mig_table_max_displ = 51
+2019-01-09 23:32:14.137166+0100 0x0        Default     0x0                  0      0    kernel: TSC Deadline Timer supported and enabled
+2019-01-09 23:32:14.137388+0100 0x65       Default     0x0                  0      0    kernel: kdp_core zlib memory 0x7000
+2019-01-09 23:32:14.469553+0100 0x65       Default     0x0                  0      0    kernel: "name" not a kext
+2019-01-09 23:32:14.469555+0100 0x65       Default     0x0                  0      0    kernel: "FailedCLUT" not a kext
+2019-01-09 23:32:14.480045+0100 0x65       Default     0x0                  0      0    kernel: "FailedImage" not a kext
+2019-01-09 23:32:14.539051+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.539052+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.539055+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) RSDP 0x00000000DDC29000 000024 (v02 ALASKA)
+2019-01-09 23:32:14.539056+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) RSDP 0x00000000DDC29000 000024 (v02 ALASKA)
+2019-01-09 23:32:14.539057+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.539058+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.539077+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.539077+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.539080+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) XSDT 0x00000000DDB1A000 00006C (v01 ALASKA A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.539081+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) XSDT 0x00000000DDB1A000 00006C (v01 ALASKA A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.539083+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.539083+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.539125+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.539126+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.539128+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FACP 0x00000000DDB19000 0000F4 (v04 Apple  A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.539129+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FACP 0x00000000DDB19000 0000F4 (v04 Apple  A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.539131+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.539132+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541326+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541326+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541329+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) DSDT 0x00000000DDB0D000 00A63F (v02 ALASKA A M I    00000024 INTL 20190108)
+2019-01-09 23:32:14.541330+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) DSDT 0x00000000DDB0D000 00A63F (v02 ALASKA A M I    00000024 INTL 20190108)
+2019-01-09 23:32:14.541331+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541332+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541350+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541350+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541352+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FACS 0x00000000DDC37080 000040
+2019-01-09 23:32:14.541353+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FACS 0x00000000DDC37080 000040
+2019-01-09 23:32:14.541354+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541354+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541371+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541371+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541373+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FACS 0x00000000DDC37080 000040
+2019-01-09 23:32:14.541374+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FACS 0x00000000DDC37080 000040
+2019-01-09 23:32:14.541375+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541375+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541400+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541401+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541403+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) APIC 0x00000000DDC336A8 000092 (v03 ALASKA A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.541404+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) APIC 0x00000000DDC336A8 000092 (v03 ALASKA A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.541406+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541406+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541427+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541427+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541429+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FPDT 0x00000000DDC33740 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.541430+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) FPDT 0x00000000DDC33740 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+2019-01-09 23:32:14.541432+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541432+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541453+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541454+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541456+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) MCFG 0x00000000DDB0B000 00003C (v01 ALASKA A M I    01072009 MSFT 00000097)
+2019-01-09 23:32:14.541457+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) MCFG 0x00000000DDB0B000 00003C (v01 ALASKA A M I    01072009 MSFT 00000097)
+2019-01-09 23:32:14.541459+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541459+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541582+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541583+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541585+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB6000 00081B (v01 Intel_ AoacTabl 00001000 INTL 20091112)
+2019-01-09 23:32:14.541586+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB6000 00081B (v01 Intel_ AoacTabl 00001000 INTL 20091112)
+2019-01-09 23:32:14.541588+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541588+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541609+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541609+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541612+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) HPET 0x00000000DDC33FE8 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+2019-01-09 23:32:14.541612+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) HPET 0x00000000DDC33FE8 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+2019-01-09 23:32:14.541614+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541615+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541676+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541677+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541679+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB4000 00036D (v01 SataRe SataTabl 00001000 INTL 20091112)
+2019-01-09 23:32:14.541680+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB4000 00036D (v01 SataRe SataTabl 00001000 INTL 20091112)
+2019-01-09 23:32:14.541682+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541682+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541807+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541808+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541810+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB3000 000858 (v01 APPLE  CpuPm    00015600 INTL 20140926)
+2019-01-09 23:32:14.541811+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB3000 000858 (v01 APPLE  CpuPm    00015600 INTL 20140926)
+2019-01-09 23:32:14.541813+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541813+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541835+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541835+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.541837+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB2000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+2019-01-09 23:32:14.541838+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) SSDT 0x00000000DDAB2000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+2019-01-09 23:32:14.541840+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.541840+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.563043+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Error:
+2019-01-09 23:32:14.563043+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Error:
+2019-01-09 23:32:14.563046+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) [\_SB_.CPU0]
+2019-01-09 23:32:14.563047+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) [\_SB_.CPU0]
+2019-01-09 23:32:14.563048+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  Namespace lookup failure, AE_NOT_FOUND
+2019-01-09 23:32:14.563049+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  Namespace lookup failure, AE_NOT_FOUND
+2019-01-09 23:32:14.563051+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/dswload-292)
+2019-01-09 23:32:14.563052+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/dswload-292)
+2019-01-09 23:32:14.563053+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Exception: AE_NOT_FOUND,
+2019-01-09 23:32:14.563054+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Exception: AE_NOT_FOUND,
+2019-01-09 23:32:14.563055+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) During name lookup/catalog
+2019-01-09 23:32:14.563056+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) During name lookup/catalog
+2019-01-09 23:32:14.563057+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/psobject-310)
+2019-01-09 23:32:14.563058+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/psobject-310)
+2019-01-09 23:32:14.563076+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Exception: AE_NOT_FOUND,
+2019-01-09 23:32:14.563077+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Exception: AE_NOT_FOUND,
+2019-01-09 23:32:14.563079+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) (SSDT:   CpuPm) while loading table
+2019-01-09 23:32:14.563079+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) (SSDT:   CpuPm) while loading table
+2019-01-09 23:32:14.563081+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/tbxfload-319)
+2019-01-09 23:32:14.563082+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/tbxfload-319)
+2019-01-09 23:32:14.563328+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Error:
+2019-01-09 23:32:14.563328+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI Error:
+2019-01-09 23:32:14.563330+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 1 table load failures, 4 successful
+2019-01-09 23:32:14.563331+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 1 table load failures, 4 successful
+2019-01-09 23:32:14.563333+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/tbxfload-342)
+2019-01-09 23:32:14.563334+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  (20160930/tbxfload-342)
+2019-01-09 23:32:14.595146+0100 0x73       Default     0x0                  0      0    kernel: calling mpo_policy_init for Lilu
+2019-01-09 23:32:14.595149+0100 0x73       Default     0x0                  0      0    kernel: Security policy loaded: Lilu Kernel Extension 1.3.1 DEBUG build (Lilu)
+2019-01-09 23:32:14.634280+0100 0x73       Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManager::init created and initing
+2019-01-09 23:32:14.634299+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: init: called, instance = <private>.
+2019-01-09 23:32:14.634324+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AssertMacros: value (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager-226.230.1/AppleCredentialManager/AppleCredentialManager.cpp:55
+2019-01-09 23:32:14.634329+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: init: EOS device type: 0.
+2019-01-09 23:32:14.634334+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) ACM: InitCredentialEngine: Global credential set created, CS[10].
+2019-01-09 23:32:14.634337+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: init: returning, result = true, instance = <private>.
+2019-01-09 23:32:14.634424+0100 0x73       Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManager::start starting
+2019-01-09 23:32:14.634448+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: start: called, instance = <private>.
+2019-01-09 23:32:14.634451+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: start: started, instance = <private>.
+2019-01-09 23:32:14.634463+0100 0x73       Default     0x0                  0      0    kernel: (AppleCredentialManager) AppleCredentialManager: start: returning, result = true, instance = <private>.
+2019-01-09 23:32:14.634467+0100 0x73       Default     0x0                  0      0    kernel: (AppleKeyStore) AppleKeyStore starting (BUILT: Nov 12 2018 21:50:41)
+2019-01-09 23:32:14.634578+0100 0x73       Default     0x0                  0      0    kernel: (AppleKeyStore) AppleKeyStore::start: _kernel_relay_enable = 0
+2019-01-09 23:32:14.634580+0100 0x73       Default     0x0                  0      0    kernel: (AppleKeyStore) AppleKeyStore::start: _sep_enabled = 0
+2019-01-09 23:32:14.634589+0100 0x73       Default     0x0                  0      0    kernel: IOGetBootKeyStoreData: data at address 0 size 0
+2019-01-09 23:32:14.634610+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AICPM::start: calling i386_pmRegister()
+2019-01-09 23:32:14.634712+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AICPM::start: back from i386_pmRegister()
+2019-01-09 23:32:14.634713+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AICPM::start: calling i386_pmThreadInit()
+2019-01-09 23:32:14.646130+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+2019-01-09 23:32:14.646134+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+2019-01-09 23:32:14.646293+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(1) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646302+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=3 LocalApicId=4 Enabled
+2019-01-09 23:32:14.646310+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(2) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646315+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=4 LocalApicId=6 Enabled
+2019-01-09 23:32:14.646321+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(3) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646325+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=5 LocalApicId=1 Enabled
+2019-01-09 23:32:14.646331+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(4) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646335+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=6 LocalApicId=3 Enabled
+2019-01-09 23:32:14.646341+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(5) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646345+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=7 LocalApicId=5 Enabled
+2019-01-09 23:32:14.646351+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(6) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646356+0100 0x79       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPICPU: ProcessorId=8 LocalApicId=7 Enabled
+2019-01-09 23:32:14.646363+0100 0x79       Default     0x0                  0      0    kernel: cpu_data_alloc(7) <private> desc_table: <private> ldt: <private> int_stack: 0x<private>-0x<private>
+2019-01-09 23:32:14.646781+0100 0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for AMFI
+2019-01-09 23:32:14.646785+0100 0x65       Default     0x0                  0      0    kernel: Security policy loaded: Apple Mobile File Integrity (AMFI)
+2019-01-09 23:32:14.646788+0100 0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for Sandbox
+2019-01-09 23:32:14.646812+0100 0x65       Default     0x0                  0      0    kernel: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+2019-01-09 23:32:14.646960+0100 0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for Quarantine
+2019-01-09 23:32:14.646964+0100 0x65       Default     0x0                  0      0    kernel: Security policy loaded: Quarantine policy (Quarantine)
+2019-01-09 23:32:14.647194+0100 0x65       Default     0x0                  0      0    kernel: calling mpo_policy_init for TMSafetyNet
+2019-01-09 23:32:14.647197+0100 0x65       Default     0x0                  0      0    kernel: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+2019-01-09 23:32:14.714001+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714002+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714003+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714004+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714004+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714005+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714006+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714006+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714007+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714008+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714008+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714009+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714010+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714010+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.714011+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) CPU Data: size = 4, alignment = 64
+2019-01-09 23:32:14.714012+0100 0x79       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) Pkg Data: size = 0
+2019-01-09 23:32:14.716514+0100 0x7a       Default     0x0                  0      0    kernel: Started cpu 2 (lapic id 00000002)
+2019-01-09 23:32:14.716594+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AICPM::start: back from i386_pmThreadInit()
+2019-01-09 23:32:14.716595+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AICPM::start: calling registerService()
+2019-01-09 23:32:14.716600+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AICPM::start: back from registerService()
+2019-01-09 23:32:14.716601+0100 0x73       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AppleIntelCPUPowerManagement: ready
+2019-01-09 23:32:14.717382+0100 0x7b       Default     0x0                  0      0    kernel: Started cpu 4 (lapic id 00000004)
+2019-01-09 23:32:14.717453+0100 0x73       Default     0x0                  0      0    kernel: (kernel) FakeSMCKeyStore: started
+2019-01-09 23:32:14.718239+0100 0x7c       Default     0x0                  0      0    kernel: Started cpu 6 (lapic id 00000006)
+2019-01-09 23:32:14.719054+0100 0x7d       Default     0x0                  0      0    kernel: Started cpu 1 (lapic id 00000001)
+2019-01-09 23:32:14.719862+0100 0x7e       Default     0x0                  0      0    kernel: Started cpu 3 (lapic id 00000003)
+2019-01-09 23:32:14.720663+0100 0x7f       Default     0x0                  0      0    kernel: Started cpu 5 (lapic id 00000005)
+2019-01-09 23:32:14.721493+0100 0x80       Default     0x0                  0      0    kernel: Started cpu 7 (lapic id 00000007)
+2019-01-09 23:32:14.730013+0100 0xa2       Default     0x0                  0      0    kernel: (AppleAPIC) IOAPIC: Version 0x20 Vectors 64:87
+2019-01-09 23:32:14.730129+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.730130+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI:
+2019-01-09 23:32:14.730132+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) Executed 2 blocks of module-level executable AML code
+2019-01-09 23:32:14.730133+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) Executed 2 blocks of module-level executable AML code
+2019-01-09 23:32:14.730135+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.730135+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) 
+2019-01-09 23:32:14.735479+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI: sleep states S3 S4 S5
+2019-01-09 23:32:14.735564+0100 0x79       Default     0x0                  0      0    kernel: (CPUSensors) CPUSensors: CPU family 0x6, model 0x3a, stepping 0x9, cores 4, threads 8, TJmax 105
+2019-01-09 23:32:14.735569+0100 0x79       Default     0x0                  0      0    kernel: (CPUSensors) CPUSensors: setting platform keys to [d8      ]
+2019-01-09 23:32:14.735598+0100 0x79       Default     0x0                  0      0    kernel: (CPUSensors) CPUSensors: base CPU multiplier is 33
+2019-01-09 23:32:14.735665+0100 0x79       Default     0x0                  0      0    kernel: (CPUSensors) CPUSensors: started
+2019-01-09 23:32:14.747652+0100 0x71       Default     0x0                  0      0    kernel: (SMMSensors) SMMSensors: [Error] Unable to validate Dell SMM signature, not loading SMMSensors
+2019-01-09 23:32:14.755349+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI: cannot translate ACPI object 14
+2019-01-09 23:32:14.755399+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI: cannot translate ACPI object 14
+2019-01-09 23:32:14.755443+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI: cannot translate ACPI object 14
+2019-01-09 23:32:14.755494+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI: cannot translate ACPI object 14
+2019-01-09 23:32:14.755538+0100 0x71       Default     0x0                  0      0    kernel: (AppleACPIPlatform) ACPI: cannot translate ACPI object 14
+2019-01-09 23:32:14.760376+0100 0xa8       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:32:48 Nov 12 2018), flags 0x20e3080
+2019-01-09 23:32:14.760379+0100 0xa8       Default     0x0                  0      0    kernel: (IOPCIFamily) pci (build 20:32:48 Nov 12 2018), flags 0x20e3080
+2019-01-09 23:32:14.760522+0100 0xba       Default     0x0                  0      0    kernel: (IOGraphicsFamily) IOG flags 0x3 (0x51)
+2019-01-09 23:32:14.761461+0100 0xb3       Default     0x0                  0      0    kernel: (AppleRTC) RTC: Only single RAM bank (128 bytes)
+2019-01-09 23:32:14.761461+0100 0xb3       Default     0x0                  0      0    kernel: (AppleRTC) RTC: Only single RAM bank (128 bytes)
+2019-01-09 23:32:14.762034+0100 0xb9       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+2019-01-09 23:32:14.762037+0100 0xbb       Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+2019-01-09 23:32:14.762297+0100 0xb6       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) hpet_init: Frequency =     14.318179MHz, hpetCvtt2n = 00000045.D75E0F7F, hpetCvtn2t = 00000000.03AA5B32
+2019-01-09 23:32:14.762312+0100 0x87       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AppleIntelCPUPowerManagement: Turbo Mode enabled
+2019-01-09 23:32:14.762315+0100 0x87       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AppleIntelCPUPowerManagement: Turbo Ratios 2344
+2019-01-09 23:32:14.762316+0100 0x87       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AppleIntelCPUPowerManagement: SMT enabled
+2019-01-09 23:32:14.762318+0100 0x87       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagement) AppleIntelCPUPowerManagement: (built 20:32:47 Nov 12 2018) initialization complete
+2019-01-09 23:32:14.776080+0100 0xc3       Default     0x0                  0      0    kernel: (ACPISensors) ACPISensors (TZ00): 1 sensor added
+2019-01-09 23:32:14.776092+0100 0xc3       Default     0x0                  0      0    kernel: (ACPISensors) ACPISensors (TZ00): started
+2019-01-09 23:32:14.776093+0100 0xa8       Default     0x0                  0      0    kernel: (IOPCIFamily) [ PCI configuration begin ]
+2019-01-09 23:32:14.776096+0100 0xa8       Default     0x0                  0      0    kernel: kPEDisableScreen -1
+2019-01-09 23:32:14.776255+0100 0xc5       Default     0x0                  0      0    kernel: (kernel) FakeSMC v6.26-357-gceb835ea.1800 Copyright 2017 netkas, slice, usr-sse2, kozlek, navi, THe KiNG, RehabMan. All rights reserved.
+2019-01-09 23:32:14.776325+0100 0xc5       Default     0x0                  0      0    kernel: (kernel) FakeSMCKeyStore: [Warning] blocked while trying to set protected key "FNum".
+2019-01-09 23:32:14.776531+0100 0xc5       Default     0x0                  0      0    kernel: (kernel) FakeSMC: 18 preconfigured keys added
+2019-01-09 23:32:14.776574+0100 0xc4       Default     0x0                  0      0    kernel: (ACPISensors) ACPISensors (TZ01): 1 sensor added
+2019-01-09 23:32:14.776596+0100 0xc5       Default     0x0                  0      0    kernel: (kernel) FakeSMC: 5 keys exported by Clover EFI
+2019-01-09 23:32:14.776598+0100 0xc4       Default     0x0                  0      0    kernel: (ACPISensors) ACPISensors (TZ01): started
+2019-01-09 23:32:14.776829+0100 0xc5       Default     0x0                  0      0    kernel: (kernel) SMC: successfully initialized
+2019-01-09 23:32:14.789712+0100 0xd1       Default     0x0                  0      0    kernel: (AppleSMC) Previous shutdown cause: 5
+2019-01-09 23:32:14.793764+0100 0xa8       Default     0x0                  0      0    kernel: initialize_screen: b=F80000000, w=00000780, h=00000438, r=00001E00, d=00000001
+2019-01-09 23:32:14.795475+0100 0xa8       Default     0x0                  0      0    kernel: kPEEnableScreen 1
+2019-01-09 23:32:14.795477+0100 0xa8       Default     0x0                  0      0    kernel: (IOPCIFamily) console relocated to 0xf80000000
+2019-01-09 23:32:14.795479+0100 0xa8       Default     0x0                  0      0    kernel: (IOPCIFamily) [ PCI configuration end, bridges 6, devices 12 ]
+2019-01-09 23:32:14.797967+0100 0xd5       Default     0x0                  0      0    kernel: (AppleACPIPlatform) Matched against SMC (started)
+2019-01-09 23:32:14.797969+0100 0xd5       Default     0x0                  0      0    kernel: (AppleACPIPlatform) Generation from SMC report as 2
+2019-01-09 23:32:14.836307+0100 0xe2       Default     0x0                  0      0    kernel: (IOAHCIFamily) [AHCI][PML][00000000]+IOAHCIPortMultiplierGlobals::IOAHCIPortMultiplierGlobals
+2019-01-09 23:32:14.836310+0100 0xe2       Default     0x0                  0      0    kernel: (IOAHCIFamily) [AHCI][PML][00000000]-IOAHCIPortMultiplierGlobals::IOAHCIPortMultiplierGlobals
+2019-01-09 23:32:14.889734+0100 0xff       Default     0x0                  0      0    kernel: (apfs) apfs_module_start:1334: load: com.apple.filesystems.apfs, v945.230.6, 945.230.6, 2018/11/12
+2019-01-09 23:32:14.919052+0100 0xe1       Default     0x0                  0      0    kernel: (LPCSensors) SuperIODevice: found Fintek F71869A on port=0x4e address=0x290
+2019-01-09 23:32:14.941342+0100 0x109      Default     0x0                  0      0    kernel: (LPCSensors) F718xxSensors: started
+2019-01-09 23:32:15.278374+0100 0x112      Default     0x0                  0      0    kernel: (IOUSBFamily) 000001.278371 AppleUSBLegacyRoot@(null): AppleUSBLegacyRoot::init: enabling legacy matching
+2019-01-09 23:32:15.280560+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280556 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280606+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280603 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280642+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280639 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280678+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280676 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280724+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280721 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280773+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280770 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280822+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280819 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.280868+0100 0x11a      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.280865 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 150 sleepUnits 0
+2019-01-09 23:32:15.282536+0100 0x65       Default     0x0                  0      0    kernel: <compose failure [UUID]>
+2019-01-09 23:32:15.282603+0100 0x65       Default     0x0                  0      0    kernel: MAC Framework successfully initialized
+2019-01-09 23:32:15.282610+0100 0x65       Default     0x0                  0      0    kernel: ulock_initialize>thread_max=20480, ull_hash_buckets=8192
+2019-01-09 23:32:15.284160+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284156 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284234+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284230 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284316+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284313 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284393+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284390 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284461+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284458 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284542+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284540 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284621+0100 0x11b      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284618 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284870+0100 0x65       Default     0x0                  0      0    kernel: using 16384 buffer headers and 10240 cluster IO buffer headers
+2019-01-09 23:32:15.284882+0100 0x76       Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284878 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284897+0100 0x65       Default     0x0                  0      0    kernel: (AppleACPIPlatform)  found RTC service
+2019-01-09 23:32:15.284920+0100 0x65       Default     0x0                  0      0    kernel: (AppleRTC) RTC: getGMTTimeOfDay 1547073134
+2019-01-09 23:32:15.284929+0100 0x65       Default     0x0                  0      0    kernel: clock_initialize_calendar system does not have monotonic clock
+2019-01-09 23:32:15.284932+0100 0x76       Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284929 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.284978+0100 0x76       Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.284976 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.285030+0100 0x76       Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.285027 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.285076+0100 0x76       Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.285073 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.286132+0100 0x65       Default     0x0                  0      0    kernel: mcache: 8 CPU(s), 64 bytes CPU cache line size
+2019-01-09 23:32:15.286490+0100 0x65       Default     0x0                  0      0    kernel: mbinit: done [128 MB total pool size, (85/42) split]
+2019-01-09 23:32:15.286644+0100 0x65       Default     0x0                  0      0    kernel: SK: netagent is disabled by default for this platform
+2019-01-09 23:32:15.287329+0100 0x65       Default     0x0                  0      0    kernel: bsd_autoconf: calling kminit
+2019-01-09 23:32:15.288180+0100 0x65       Default     0x0                  0      0    kernel: :
+2019-01-09 23:32:15.288394+0100 0x169      Info        0x0                  0      0    kernel: (AppleSystemPolicy) Initializing vnode cache
+2019-01-09 23:32:15.289021+0100 0x169      Default     0x0                  0      0    kernel: (AppleFSCompressionTypeZlib) com.apple.AppleFSCompressionTypeZlib kmod start
+2019-01-09 23:32:15.289629+0100 0x169      Default     0x0                  0      0    kernel: (AppleFSCompressionTypeDataless) com.apple.AppleFSCompressionTypeDataless kmod start
+2019-01-09 23:32:15.290790+0100 0x169      Default     0x0                  0      0    kernel: calling mpo_policy_init for ASP
+2019-01-09 23:32:15.290794+0100 0x169      Default     0x0                  0      0    kernel: Security policy loaded: Apple System Policy (ASP)
+2019-01-09 23:32:15.290807+0100 0x169      Default     0x0                  0      0    kernel: (AppleSystemPolicy) AppleSystemPolicy has been successfully started
+2019-01-09 23:32:15.290901+0100 0x169      Default     0x0                  0      0    kernel: (AppleFSCompressionTypeZlib) com.apple.AppleFSCompressionTypeZlib load succeeded
+2019-01-09 23:32:15.290920+0100 0x169      Default     0x0                  0      0    kernel: (AppleFSCompressionTypeDataless) com.apple.AppleFSCompressionTypeDataless load succeeded
+2019-01-09 23:32:15.291061+0100 0x65       Default     0x0                  0      0    kernel: rooting via boot-uuid from /chosen: 3587CF64-447E-4310-AD67-771B31A24B3A
+2019-01-09 23:32:15.291062+0100 0x8d       Default     0x0                  0      0    kernel: (AppleIntelCPUPowerManagementClient) AppleIntelCPUPowerManagementClient: ready
+2019-01-09 23:32:15.291096+0100 0x65       Default     0x0                  0      0    kernel: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+2019-01-09 23:32:15.291124+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: EEE support enabled.
+2019-01-09 23:32:15.291128+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: RxPoll support enabled.
+2019-01-09 23:32:15.291130+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: TCP/IPv4 segmentation offload enabled.
+2019-01-09 23:32:15.291133+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: TCP/IPv6 segmentation offload enabled.
+2019-01-09 23:32:15.291137+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: TCP/IPv6 checksum offload enabled.
+2019-01-09 23:32:15.291141+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: Version 2.2.2 using interrupt mitigate value 0x5f51. Please don't support tonymacx86.com!
+2019-01-09 23:32:15.291175+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: Disable PCIe ASPM.
+2019-01-09 23:32:15.297983+0100 0x17c      Default     0x0                  0      0    kernel: (apfs) cryptoAlloc:662: Using 64 buffers with size 16384, 512 buffers size 65536
+2019-01-09 23:32:15.302109+0100 0x191      Default     0x0                  0      0    kernel: (apfs) swcrypto_threadpool_init:1303: Starting ThreadPool
+2019-01-09 23:32:15.302112+0100 0x191      Default     0x0                  0      0    kernel: (apfs) swcrypto_threadpool_init:1325: 4 threads would be used for the ThreadPool
+2019-01-09 23:32:15.302122+0100 0x192      Default     0x0                  0      0    kernel: (apfs) swcrypto_threadpool_worker_thread:1249: ThreadPool worker thread started
+2019-01-09 23:32:15.302124+0100 0x193      Default     0x0                  0      0    kernel: (apfs) swcrypto_threadpool_worker_thread:1249: ThreadPool worker thread started
+2019-01-09 23:32:15.302126+0100 0x194      Default     0x0                  0      0    kernel: (apfs) swcrypto_threadpool_worker_thread:1249: ThreadPool worker thread started
+2019-01-09 23:32:15.302127+0100 0x195      Default     0x0                  0      0    kernel: (apfs) swcrypto_threadpool_worker_thread:1249: ThreadPool worker thread started
+2019-01-09 23:32:15.302236+0100 0x191      Default     0x0                  0      0    kernel: (apfs) dev_init:285: disk1s2: device accelerated crypto: 0 (compiled @ Nov 12 2018 21:50:35)
+2019-01-09 23:32:15.302240+0100 0x191      Default     0x0                  0      0    kernel: (apfs) dev_init:288: disk1s2: device_handle block size 4096 block count 62463564 features 0 internal
+2019-01-09 23:32:15.303237+0100 0x191      Default     0x0                  0      0    kernel: (apfs) fletcher64_init:106: Selecting AVX1 implementation of fletcher64
+2019-01-09 23:32:15.303256+0100 0x191      Default     0x0                  0      0    kernel: (apfs) nx_kernel_mount:1206: disk1s2: initializing cache w/hash_size 8192 and cache size 32768
+2019-01-09 23:32:15.311907+0100 0xef       Default     0x0                  0      0    kernel: (kernel) Ethernet [RealtekRTL8111]: RTL8168E-VL/8111E-VL: (Chipset 16) at 0x<private>, d4:3d:7e:06:0d:cd
+2019-01-09 23:32:15.312454+0100 0x196      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManager::matched first interface
+2019-01-09 23:32:15.318105+0100 0x191      Default     0x0                  0      0    kernel: (apfs) nx_kernel_mount:1455: disk1s2: checkpoint search: largest xid 8393, best xid 8393 @ 265
+2019-01-09 23:32:15.318115+0100 0x191      Default     0x0                  0      0    kernel: (apfs) nx_kernel_mount:1457: disk1s2: reloading after unclean unmount, checkpoint xid 8393, superblock xid 8108
+2019-01-09 23:32:15.318535+0100 0x191      Default     0x0                  0      0    kernel: (apfs) apfs_sysctl_register:926: done registering sysctls.
+2019-01-09 23:32:15.320430+0100 0x65       Default     0x0                  0      0    kernel: BSD root: disk4s1
+2019-01-09 23:32:15.320432+0100 0x65       Default     0x0                  0      0    kernel: , major 1, minor 18
+2019-01-09 23:32:15.320533+0100 0x65       Default     0x0                  0      0    kernel: (IOStorageFamily) disk4s1: device is not readable.
+2019-01-09 23:32:15.320538+0100 0x65       Default     0x0                  0      0    kernel: (HFS) hfs_mountfs: buf_meta_bread failed with 13
+2019-01-09 23:32:15.320541+0100 0x65       Default     0x0                  0      0    kernel: (HFS) hfs_mount: hfs_mountfs returned error=13 for device unknown-dev
+2019-01-09 23:32:15.320544+0100 0x65       Default     0x0                  0      0    kernel: hfs_mountroot failed: 13
+2019-01-09 23:32:15.320547+0100 0x65       Default     0x0                  0      0    kernel: (apfs) apfs_vfsop_mountroot:1489: apfs: mountroot called!
+2019-01-09 23:32:15.320765+0100 0x65       Default     0x0                  0      0    kernel: (apfs) dev_init:285: /dev/disk4: device accelerated crypto: 0 (compiled @ Nov 12 2018 21:50:35)
+2019-01-09 23:32:15.320770+0100 0x65       Default     0x0                  0      0    kernel: (apfs) dev_init:288: /dev/disk4: device_handle block size 4096 block count 62463564 features 16 internal solidstate
+2019-01-09 23:32:15.320907+0100 0x65       Default     0x0                  0      0    kernel: (apfs) nx_kernel_mount:1206: /dev/disk4: initializing cache w/hash_size 16384 and cache size 40960
+2019-01-09 23:32:15.335888+0100 0x65       Default     0x0                  0      0    kernel: (apfs) nx_kernel_mount:1455: /dev/disk4: checkpoint search: largest xid 8393, best xid 8393 @ 265
+2019-01-09 23:32:15.335898+0100 0x65       Default     0x0                  0      0    kernel: (apfs) nx_kernel_mount:1457: /dev/disk4: reloading after unclean unmount, checkpoint xid 8393, superblock xid 8108
+2019-01-09 23:32:15.336753+0100 0x65       Default     0x0                  0      0    kernel: (apfs) er_state_obj_get_for_recovery:4214: No ER state object for volume OSX - rolling is not happening, nothing to recover.
+2019-01-09 23:32:15.336760+0100 0x65       Default     0x0                  0      0    kernel: (apfs) apfs_vfsop_mount:1334: Promoter has been locked for /dev/disk4
+2019-01-09 23:32:15.336788+0100 0x65       Default     0x0                  0      0    kernel: (apfs) handle_mount:298: vol-uuid: 3587CF64-447E-4310-AD67-771B31A24B3A block size: 4096 block count: 62463564 (unencrypted; flags: 0x1; features: 1.0.2)
+2019-01-09 23:32:15.338519+0100 0x65       Default     0x0                  0      0    kernel: (apfs) handle_mount:311: setting dev block size to 4096 from 512
+2019-01-09 23:32:15.338588+0100 0x65       Default     0x0                  0      0    kernel: (apfs) apfs_vfsop_mount:1476: mounted volume: OSX
+2019-01-09 23:32:15.340410+0100 0x1a2      Default     0x0                  0      0    kernel: load_init_program: attempting to load /sbin/launchd
+2019-01-09 23:32:15.340449+0100 0x65       Default     0x0                  0      0    kernel: (BootCache) BootCache: Root disk is an SSD, not caching
+2019-01-09 23:32:15.340517+0100 0x65       Default     0x0                  0      0    kernel: VM Swap Subsystem is ON
+2019-01-09 23:32:15.463250+0100 0x157      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463245 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.463383+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463379 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.463507+0100 0x157      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463503 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.463633+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463629 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.463754+0100 0x157      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463750 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.463893+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463890 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464001+0100 0x157      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.463998 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464133+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.464129 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464262+0100 0x157      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.464258 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464386+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.464383 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464509+0100 0x157      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.464506 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464627+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.464624 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.464869+0100 0x152      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.464865 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 100 sleepUnits 0
+2019-01-09 23:32:15.708543+0100 0x1ec      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.708537 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 400 sleepUnits 0
+2019-01-09 23:32:15.710982+0100 0x1ed      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::init(<private>)
+2019-01-09 23:32:15.710991+0100 0x1ed      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::init(<private>) returns 1
+2019-01-09 23:32:15.711042+0100 0x1ed      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::start(<private>)
+2019-01-09 23:32:15.711409+0100 0x1ed      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::start(<private>)
+2019-01-09 23:32:15.711451+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setDeviceModelName(<private>)
+2019-01-09 23:32:15.711455+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setDeviceModelName(<private>)
+2019-01-09 23:32:15.711456+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setDeviceName(<private>)
+2019-01-09 23:32:15.711458+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setDeviceName(<private>)
+2019-01-09 23:32:15.711459+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setManufacturerName(<private>)
+2019-01-09 23:32:15.711461+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setManufacturerName(<private>)
+2019-01-09 23:32:15.711654+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::init(0x0)
+2019-01-09 23:32:15.711654+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   properties(0x0) == NULL
+2019-01-09 23:32:15.711666+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setState(0x0. oldState=0)
+2019-01-09 23:32:15.711668+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::init(0x0)
+2019-01-09 23:32:15.711774+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::init(0x0)
+2019-01-09 23:32:15.711774+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   properties(0x0) == NULL
+2019-01-09 23:32:15.711781+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setState(0x0. oldState=0)
+2019-01-09 23:32:15.711783+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::init(0x0)
+2019-01-09 23:32:15.711793+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::activateAudioEngine(<private>, 1)
+2019-01-09 23:32:15.711796+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>)
+2019-01-09 23:32:15.711797+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:15.711800+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::initHardware(<private>)
+2019-01-09 23:32:15.711827+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setSampleRate(<private>)
+2019-01-09 23:32:15.711831+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:15.711833+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:15.712531+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>)
+2019-01-09 23:32:15.712532+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:15.712533+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:15.712534+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:15.712535+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 16
+2019-01-09 23:32:15.712536+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 16
+2019-01-09 23:32:15.712536+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:15.712537+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:15.712539+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>) returns 1
+2019-01-09 23:32:15.712543+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::beginConfigurationChange()
+2019-01-09 23:32:15.712544+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:15.712545+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:15.712546+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:15.712547+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:15.712548+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:15.712549+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 16
+2019-01-09 23:32:15.712550+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 16
+2019-01-09 23:32:15.712550+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:15.712551+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:15.712552+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:15.712554+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:15.712555+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:15.712557+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, 0x0)
+2019-01-09 23:32:15.712558+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:15.712559+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:15.712566+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x0)
+2019-01-09 23:32:15.712568+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x0)
+2019-01-09 23:32:15.712569+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:15.712571+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:15.712630+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setOutputSampleOffset(0x31)
+2019-01-09 23:32:15.712632+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setOutputSampleOffset(0x31)
+2019-01-09 23:32:15.712637+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::removeAllDefaultAudioControls()
+2019-01-09 23:32:15.712637+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::removeAllDefaultAudioControls()
+2019-01-09 23:32:15.712699+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:15.712700+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:15.712710+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:15.712710+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=0 i=0
+2019-01-09 23:32:15.712713+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:15.712714+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:15.712715+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:15.712716+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:15.712717+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:15.712719+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) IOAudioStream[<private>]::setFormat(<private>, <private>) returns 0x0
+2019-01-09 23:32:15.750412+0100 0x1f3      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.750408 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 300 sleepUnits 0
+2019-01-09 23:32:15.817875+0100 0x1f6      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.817871 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 500 sleepUnits 0
+2019-01-09 23:32:15.818867+0100 0x1df      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.818863 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 500 sleepUnits 0
+2019-01-09 23:32:15.819123+0100 0x1df      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.819119 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 500 sleepUnits 0
+2019-01-09 23:32:15.819368+0100 0x1df      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.819365 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 500 sleepUnits 0
+2019-01-09 23:32:15.819621+0100 0x1df      Default     0x0                  0      0    kernel: (IOUSBHostFamily) 000001.819618 AppleUSBHostResources@(null): AppleUSBHostResources::allocateDownstreamBusCurrentGated: assuming successful wakeUnits 500 sleepUnits 0
+2019-01-09 23:32:16.313480+0100 0x12e      Default     0x0                  0      0    kernel: (IOTimeSyncFamily) IOTimeSyncClockManager::delayedClockIDLookup registered service
+2019-01-09 23:32:16.380732+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngine[<private>]::completeConfigurationChange()
+2019-01-09 23:32:16.381238+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::addAudioStream(<private>)
+2019-01-09 23:32:16.381243+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setRunEraseHead(1)
+2019-01-09 23:32:16.381251+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::addAudioStream(<private>) returns 0x0
+2019-01-09 23:32:16.381273+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::removeAllDefaultAudioControls()
+2019-01-09 23:32:16.381277+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::removeAllDefaultAudioControls()
+2019-01-09 23:32:16.381354+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:16.381356+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::start(<private>) returns 1
+2019-01-09 23:32:16.381364+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::registerService(0x8)
+2019-01-09 23:32:16.381365+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:16.381367+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=6 i=0
+2019-01-09 23:32:16.381371+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:16.381397+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::registerService(0x8)
+2019-01-09 23:32:16.381398+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::activateAudioEngine(<private>, 1) returns 0x0
+2019-01-09 23:32:16.381400+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::activateAudioEngine(<private>, 1)
+2019-01-09 23:32:16.381403+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>)
+2019-01-09 23:32:16.381405+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:16.381407+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::initHardware(<private>)
+2019-01-09 23:32:16.381467+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setSampleRate(<private>)
+2019-01-09 23:32:16.381471+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:16.381473+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:16.381977+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>)
+2019-01-09 23:32:16.381978+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:16.381979+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:16.381980+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:16.381981+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 16
+2019-01-09 23:32:16.381982+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 16
+2019-01-09 23:32:16.381982+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:16.381983+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:16.381985+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>) returns 1
+2019-01-09 23:32:16.381988+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::beginConfigurationChange()
+2019-01-09 23:32:16.381989+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:16.381991+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:16.381991+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:16.381993+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:16.381994+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:16.381994+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 16
+2019-01-09 23:32:16.381995+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 16
+2019-01-09 23:32:16.381996+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:16.381996+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:16.381998+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:16.382000+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:16.382001+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:16.382002+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, 0x0)
+2019-01-09 23:32:16.382004+0100 0x1dd      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:16.432614+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report bytes: input:8 output:1 feature:0
+2019-01-09 23:32:16.432615+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Collections : 2
+2019-01-09 23:32:16.432616+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Buttons     : input:2 output:1 feature:0
+2019-01-09 23:32:16.432616+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Values      : input:1 output:0 feature:0
+2019-01-09 23:32:16.432776+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Element value capacity 6656
+2019-01-09 23:32:16.432800+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report count: 1
+2019-01-09 23:32:16.432801+0100 0x205      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 0 input:64 output:8 feature:0
+2019-01-09 23:32:17.692305+0100 0x40c      Error       0x0                  0      0    kernel: (Sandbox) Sandbox: distnoted(97) deny(1) file-read-data /usr/sbin/distnoted
+2019-01-09 23:32:17.743500+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::newUserClient(0x<private>, <private>, 0x0, 0x0, <private>)
+2019-01-09 23:32:17.743504+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngineUserClient[<private>]::initWithAudioEngine(<private>, 0x<private>, <private>, 0x0, 0x0)
+2019-01-09 23:32:17.743509+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngineUserClient[<private>]::setOnline(0)
+2019-01-09 23:32:17.743511+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily)   ConnectionID:0x963c5115
+2019-01-09 23:32:17.743515+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::initWithAudioEngine(<private>, 0x<private>, <private>, 0x0, 0x0) returns 1
+2019-01-09 23:32:17.743516+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngineUserClient::withAudioEngine(<private>, 0x<private>, <private>, 0x0, 0x0) returns <private>
+2019-01-09 23:32:17.743522+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine::addUserClientAction(<private>, <private>)
+2019-01-09 23:32:17.743524+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngine[<private>]::addUserClient(<private>) returns 0x0
+2019-01-09 23:32:17.743525+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine::addUserClientAction(<private>, <private>) returns 0x0
+2019-01-09 23:32:17.743527+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::newUserClient(0x<private>, <private>, 0x0, 0x0, <private>)
+2019-01-09 23:32:17.743545+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngineUserClient[<private>]::clientMemoryForType(0x0, 0x0, <private>)
+2019-01-09 23:32:17.743546+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::getStatusDescriptor()
+2019-01-09 23:32:17.743548+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::clientMemoryForType(0x0, 0x1000, <private>) returns 0x0
+2019-01-09 23:32:17.743575+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::registerFormatNotification(0x<private>, 0x21) returns 0x0
+2019-01-09 23:32:17.743576+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient::registerNotificationAction(<private>, <private>) returns 0x0
+2019-01-09 23:32:17.743578+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::registerNotificationPort(0x<private>, 0x0, 0x21) returns 0x0
+2019-01-09 23:32:17.746859+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::newUserClient(0x<private>, <private>, 0x0, 0x0, <private>)
+2019-01-09 23:32:17.746864+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngineUserClient[<private>]::initWithAudioEngine(<private>, 0x<private>, <private>, 0x0, 0x0)
+2019-01-09 23:32:17.746868+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngineUserClient[<private>]::setOnline(0)
+2019-01-09 23:32:17.746871+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily)   ConnectionID:0xdf674e7d
+2019-01-09 23:32:17.746875+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::initWithAudioEngine(<private>, 0x<private>, <private>, 0x0, 0x0) returns 1
+2019-01-09 23:32:17.746878+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngineUserClient::withAudioEngine(<private>, 0x<private>, <private>, 0x0, 0x0) returns <private>
+2019-01-09 23:32:17.746884+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine::addUserClientAction(<private>, <private>)
+2019-01-09 23:32:17.746886+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +- IOAudioEngine[<private>]::addUserClient(<private>) returns 0x0
+2019-01-09 23:32:17.746888+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine::addUserClientAction(<private>, <private>) returns 0x0
+2019-01-09 23:32:17.746890+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::newUserClient(0x<private>, <private>, 0x0, 0x0, <private>)
+2019-01-09 23:32:17.746908+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngineUserClient[<private>]::clientMemoryForType(0x0, 0x0, <private>)
+2019-01-09 23:32:17.746909+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::getStatusDescriptor()
+2019-01-09 23:32:17.746912+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::clientMemoryForType(0x0, 0x1000, <private>) returns 0x0
+2019-01-09 23:32:17.746932+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::registerFormatNotification(0x<private>, 0x24) returns 0x0
+2019-01-09 23:32:17.746934+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient::registerNotificationAction(<private>, <private>) returns 0x0
+2019-01-09 23:32:17.746937+0100 0x38a      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngineUserClient[<private>]::registerNotificationPort(0x<private>, 0x0, 0x24) returns 0x0
+2019-01-09 23:32:17.793675+0100 0x2ce      Default     0x0                  0      0    kernel: (AppleKeyStore) unexpected session: 100000 uid: -1 requested by: 38
+2019-01-09 23:32:17.793683+0100 0x2ce      Default     0x0                  0      0    kernel: (AppleKeyStore) AppleKeyStore: operation failed (pid: 38 sel: 7 ret: e00002c2 '-536870206', -1, 100000)
+2019-01-09 23:32:17.895641+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setProperties(<private>)
+2019-01-09 23:32:17.895648+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::beginConfigurationChange()
+2019-01-09 23:32:17.895650+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:17.895653+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:17.895655+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895656+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895658+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895659+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895660+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895661+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895662+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895663+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895665+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895666+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895667+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895668+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895669+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895670+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895671+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895672+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895673+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895674+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895675+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895676+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895677+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895678+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895679+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895680+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895680+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895681+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895682+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895682+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895683+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   6: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895690+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895691+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895692+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895692+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895693+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895694+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895694+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   6: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895695+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895697+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895697+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895698+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895699+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895699+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895700+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   6: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895701+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895702+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895703+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895704+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895704+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895705+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895706+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   6: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895707+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895708+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895709+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895709+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895710+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895711+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895711+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895712+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895713+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895714+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895715+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895716+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895716+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895717+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895718+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895719+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895720+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895721+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   16: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895721+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895722+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895723+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:17.895724+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:17.895725+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:17.895725+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitDepth = 24
+2019-01-09 23:32:17.895726+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   24: streamFormat->fBitWidth = 24
+2019-01-09 23:32:17.895727+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fAlignment = 0
+2019-01-09 23:32:17.895728+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fByteOrder = 1
+2019-01-09 23:32:17.895729+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:17.895733+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:17.895734+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:17.895736+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, <private>)
+2019-01-09 23:32:17.895738+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:17.895738+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:17.895757+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x0)
+2019-01-09 23:32:17.895760+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x0)
+2019-01-09 23:32:17.895761+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x6000)
+2019-01-09 23:32:17.895763+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x6000)
+2019-01-09 23:32:17.895888+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setOutputSampleOffset(0x61)
+2019-01-09 23:32:17.895890+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setOutputSampleOffset(0x61)
+2019-01-09 23:32:17.895901+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::removeAllDefaultAudioControls()
+2019-01-09 23:32:17.895905+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::removeAllDefaultAudioControls()
+2019-01-09 23:32:17.895938+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:17.895940+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=6 i=0
+2019-01-09 23:32:17.895943+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:17.895980+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:17.895981+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:17.895989+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setSampleRate(<private>)
+2019-01-09 23:32:17.895992+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:17.895993+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:17.895994+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:17.895995+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:17.895997+0100 0x3c8      Default     0x0                  0      0    kernel: (IOAudioFamily) IOAudioStream[<private>]::setFormat(<private>, <private>) returns 0x0
+2019-01-09 23:32:18.202615+0100 0x28c      Default     0x0                  0      0    kernel: Notice - new kext com.apple.driver.KextExcludeList, v14.0.3 matches prelinked kext but can't determine if executables are the same (no UUIDs).
+2019-01-09 23:32:18.253936+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) handle_encryption_rolling:5613: er: request granted[0].
+2019-01-09 23:32:18.254768+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) apfs_keybag_get:1320: failed to get apfs volume keybag, err = 2
+2019-01-09 23:32:18.254775+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) apfs_keybag_init:1372: failed to initialize volume keybag, err = 2
+2019-01-09 23:32:18.255272+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) handle_encryption_rolling:5613: er: request granted[0].
+2019-01-09 23:32:18.256294+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) apfs_keybag_get:1320: failed to get apfs volume keybag, err = 2
+2019-01-09 23:32:18.256298+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) apfs_keybag_init:1372: failed to initialize volume keybag, err = 2
+2019-01-09 23:32:18.256888+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) handle_encryption_rolling:5613: er: request granted[0].
+2019-01-09 23:32:18.258192+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) apfs_keybag_get:1320: failed to get apfs volume keybag, err = 2
+2019-01-09 23:32:18.258197+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) apfs_keybag_init:1372: failed to initialize volume keybag, err = 2
+2019-01-09 23:32:18.258633+0100 0x46c      Default     0x0                  0      0    kernel: (apfs) handle_encryption_rolling:5613: er: request granted[0].
+2019-01-09 23:32:18.264665+0100 0x28c      Default     0x0                  0      0    kernel: Matching service count = 18
+2019-01-09 23:32:18.265786+0100 0x28c      Default     0x0                  0      0    kernel: Matching service count = 25
+2019-01-09 23:32:18.269411+0100 0x28c      Default     0x0                  0      0    kernel: Matching service count = 40
+2019-01-09 23:32:18.280369+0100 0x4b7      Default     0x0                  0      0    kernel: (AppleIntelFramebufferCapri) ME driver start
+2019-01-09 23:32:18.285990+0100 0x4b9      Default     0x0                  0      0    kernel: (kernel) HDMIAudio: Audio Controller 0x1002aaa0 on HDAU
+2019-01-09 23:32:18.287836+0100 0x4c0      Default     0x0                  0      0    kernel: LPCB: match category com_apple_driver_eficheck exists
+2019-01-09 23:32:18.288886+0100 0x4be      Default     0x0                  0      0    kernel: (Apple16X50ACPI) Apple16X50ACPI1: Identified Serial Port on ACPI Device=UAR1
+2019-01-09 23:32:18.289683+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report bytes: input:20 output:20 feature:1
+2019-01-09 23:32:18.289684+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Collections : 6
+2019-01-09 23:32:18.289685+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Buttons     : input:8 output:2 feature:0
+2019-01-09 23:32:18.289686+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Values      : input:0 output:0 feature:0
+2019-01-09 23:32:18.290381+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Element value capacity 23140
+2019-01-09 23:32:18.290438+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report count: 6
+2019-01-09 23:32:18.290440+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 0 input:0 output:0 feature:0
+2019-01-09 23:32:18.290452+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 1 input:72 output:8 feature:8
+2019-01-09 23:32:18.290468+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 3 input:40 output:8 feature:8
+2019-01-09 23:32:18.290484+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 4 input:16 output:8 feature:8
+2019-01-09 23:32:18.290496+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 16 input:56 output:56 feature:8
+2019-01-09 23:32:18.290508+0100 0x4c6      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 17 input:160 output:160 feature:8
+2019-01-09 23:32:18.293556+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report bytes: input:1 output:0 feature:0
+2019-01-09 23:32:18.293557+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Collections : 2
+2019-01-09 23:32:18.293559+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Buttons     : input:7 output:0 feature:0
+2019-01-09 23:32:18.293561+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Values      : input:0 output:0 feature:0
+2019-01-09 23:32:18.293574+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Element value capacity 192
+2019-01-09 23:32:18.293583+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report count: 1
+2019-01-09 23:32:18.293584+0100 0x4c7      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 0 input:8 output:0 feature:0
+2019-01-09 23:32:18.294436+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) Generation from SMC report as 2
+2019-01-09 23:32:18.294438+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) Generation from SMC report as 2
+2019-01-09 23:32:18.294739+0100 0x4be      Default     0x0                  0      0    kernel: (Apple16X50Serial) Apple16X50UARTSync1: Detected 16550AF/C/CF FIFO=16 MaxBaud=115200
+2019-01-09 23:32:18.294836+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report bytes: input:8 output:0 feature:0
+2019-01-09 23:32:18.294837+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Collections : 3
+2019-01-09 23:32:18.294838+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Buttons     : input:1 output:0 feature:0
+2019-01-09 23:32:18.294840+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Values      : input:4 output:0 feature:0
+2019-01-09 23:32:18.294869+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Element value capacity 508
+2019-01-09 23:32:18.294881+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report count: 1
+2019-01-09 23:32:18.294883+0100 0x4c8      Debug       0x0                  0      0    kernel: (IOHIDFamily) Report ID: 0 input:64 output:0 feature:0
+2019-01-09 23:32:18.299099+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU0 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299101+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU0 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299107+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299108+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299119+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU0 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299121+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU0 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299125+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299126+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299130+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299132+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299150+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get max non-turbo PState. Set max non-turbo PState to default value 1
+2019-01-09 23:32:18.299152+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get max non-turbo PState. Set max non-turbo PState to default value 1
+2019-01-09 23:32:18.299181+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU1 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299182+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU1 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299187+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299189+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299199+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU1 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299201+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU1 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299205+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299206+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299210+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299211+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299236+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU2 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299238+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU2 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299250+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299252+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299263+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU2 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299265+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU2 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299270+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299271+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299275+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299277+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299308+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU3 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299310+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU3 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299315+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299316+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299327+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU3 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299329+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU3 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299334+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299335+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299340+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299341+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299361+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU4 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299363+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU4 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299367+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299368+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299377+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU4 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299381+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU4 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299385+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299386+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299390+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299391+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299403+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU5 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299405+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU5 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299407+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299408+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299414+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU5 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299415+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU5 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299418+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299422+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299425+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299426+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299438+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU6 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299439+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU6 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299442+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299443+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299449+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU6 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299450+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU6 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299452+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299453+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299456+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299457+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299469+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU7 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299470+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - CPU7 ACST and _CST evaluations failed!
+2019-01-09 23:32:18.299472+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299473+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUCStates - _CST did not return a package
+2019-01-09 23:32:18.299479+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU7 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299480+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - CPU7 APSS and _PSS evaluations failed!
+2019-01-09 23:32:18.299483+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299484+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::getCPUPStates - acpiPSArrayObj is not an valid OSArray
+2019-01-09 23:32:18.299487+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.299488+0100 0x4bf      Default     0x0                  0      0    kernel: (IOPlatformPluginFamily) X86PlatformPlugin::publishACPIStates - Failed to get CPU P States!
+2019-01-09 23:32:18.300635+0100 0x4b8      Default     0x0                  0      0    kernel: (kernel) HDMIAudio: Display Controller 0x10026798 on GFX0
+2019-01-09 23:32:18.301568+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::init(<private>)
+2019-01-09 23:32:18.301577+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::init(<private>) returns 1
+2019-01-09 23:32:18.303285+0100 0x4e0      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+2019-01-09 23:32:18.305438+0100 0x4bb      Default     0x0                  0      0    kernel: DSMOS has arrived
+2019-01-09 23:32:18.305456+0100 0x4bb      Default     0x0                  0      0    kernel: (pmtelemetry) Unsupported CPU
+2019-01-09 23:32:18.305462+0100 0x4bb      Default     0x0                  0      0    kernel: (pmtelemetry) Unsupported CPU
+2019-01-09 23:32:18.305477+0100 0x4bb      Default     0x0                  0      0    kernel: (pmtelemetry) Unsupported PCH
+2019-01-09 23:32:18.305754+0100 0x4bb      Default     0x0                  0      0    kernel: (IOBluetoothFamily) [IOBluetoothFamily][start] -- completed
+2019-01-09 23:32:18.305854+0100 0x4bb      Default     0x0                  0      0    kernel: (IOSurface) IOSurface allowing global lookups (with warnings)
+2019-01-09 23:32:18.306360+0100 0x4bb      Default     0x0                  0      0    kernel: (AppleSSE) AssertMacros: value (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleSSE/AppleSSE-131.220.3/AppleSSE/AppleSSE.cpp, line: 34
+2019-01-09 23:32:18.308561+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::start(<private>)
+2019-01-09 23:32:18.308575+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioDevice[<private>]::initHardware(<private>)
+2019-01-09 23:32:18.308577+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setDeviceName(<private>)
+2019-01-09 23:32:18.308595+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setDeviceModelName(<private>)
+2019-01-09 23:32:18.308598+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setDeviceModelName(<private>)
+2019-01-09 23:32:18.308599+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setDeviceName(<private>)
+2019-01-09 23:32:18.308600+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setDeviceShortName(<private>)
+2019-01-09 23:32:18.308604+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setDeviceShortName(<private>)
+2019-01-09 23:32:18.308606+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setManufacturerName(<private>)
+2019-01-09 23:32:18.308614+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setManufacturerName(<private>)
+2019-01-09 23:32:18.308620+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::init(<private>)
+2019-01-09 23:32:18.308627+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   Make copy of properties(<private>) != pDict(<private>)
+2019-01-09 23:32:18.308692+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setState(0x0. oldState=0)
+2019-01-09 23:32:18.308709+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::init(<private>)
+2019-01-09 23:32:18.312570+0100 0x4ed      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+2019-01-09 23:32:18.312597+0100 0x4ee      Default     0x0                  0      0    kernel: (IOHIDFamily) HID: Legacy shim 2
+2019-01-09 23:32:18.317107+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::activateAudioEngine(<private>, 1)
+2019-01-09 23:32:18.317113+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>)
+2019-01-09 23:32:18.317114+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:18.317301+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::initHardware(<private>)
+2019-01-09 23:32:18.317879+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>)
+2019-01-09 23:32:18.317881+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:18.317882+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.317884+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.317885+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.317886+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.317888+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.317889+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.317891+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>) returns 1
+2019-01-09 23:32:18.317901+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:18.317905+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:18.317906+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:18.317907+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.317909+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.317910+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.317911+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.317912+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.317914+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.317916+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:18.317920+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:18.317922+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:18.317924+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, 0x0)
+2019-01-09 23:32:18.317932+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.317934+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=0 i=0
+2019-01-09 23:32:18.318162+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.318164+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.318166+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.318168+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:18.318170+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:18.318173+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) IOAudioStream[<private>]::setFormat(<private>, <private>) returns 0x0
+2019-01-09 23:32:18.318193+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::addAudioStream(<private>)
+2019-01-09 23:32:18.318209+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::addAudioStream(<private>) returns 0x0
+2019-01-09 23:32:18.318212+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>)
+2019-01-09 23:32:18.318213+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:18.318215+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.318216+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.318218+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.318219+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.318220+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.318221+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.318223+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>) returns 1
+2019-01-09 23:32:18.318231+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:18.318233+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:18.318234+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   2: streamFormat->fNumChannels = 2
+2019-01-09 23:32:18.318236+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.318238+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.318239+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.318240+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.318241+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.318242+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.318245+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:18.318249+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:18.318251+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:18.318253+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, 0x0)
+2019-01-09 23:32:18.318261+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.318263+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=0 i=2
+2019-01-09 23:32:18.318476+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.318478+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.318480+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.318481+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:18.318483+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:18.318489+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) IOAudioStream[<private>]::setFormat(<private>, <private>) returns 0x0
+2019-01-09 23:32:18.318501+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::addAudioStream(<private>)
+2019-01-09 23:32:18.318509+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setRunEraseHead(1)
+2019-01-09 23:32:18.318517+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::addAudioStream(<private>) returns 0x0
+2019-01-09 23:32:18.318520+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setSampleRate(<private>)
+2019-01-09 23:32:18.318524+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:18.318528+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:18.318535+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:18.318536+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::start(<private>) returns 1
+2019-01-09 23:32:18.318542+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::registerService(0x0)
+2019-01-09 23:32:18.318543+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.318546+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=2 i=2
+2019-01-09 23:32:18.318752+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.318778+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::registerService(0x0)
+2019-01-09 23:32:18.318781+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::activateAudioEngine(<private>, 1) returns 0x0
+2019-01-09 23:32:18.318783+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::init(<private>)
+2019-01-09 23:32:18.318790+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   Make copy of properties(<private>) != pDict(<private>)
+2019-01-09 23:32:18.318804+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setState(0x0. oldState=0)
+2019-01-09 23:32:18.318807+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::init(<private>)
+2019-01-09 23:32:18.318919+0100 0x503      Default     0x0                  0      0    kernel: (kernel) HDMIAudio: Display Controller 0x10026798 on GFX0
+2019-01-09 23:32:18.322451+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::activateAudioEngine(<private>, 1)
+2019-01-09 23:32:18.322455+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>)
+2019-01-09 23:32:18.322456+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:18.323012+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::initHardware(<private>)
+2019-01-09 23:32:18.324216+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>)
+2019-01-09 23:32:18.324218+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   64: streamFormat->fNumChannels = 64
+2019-01-09 23:32:18.324220+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.324221+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.324223+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.324224+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.324225+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.324226+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.324229+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>) returns 1
+2019-01-09 23:32:18.324239+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:18.324241+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:18.324243+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   64: streamFormat->fNumChannels = 64
+2019-01-09 23:32:18.324244+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.324246+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.324247+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.324248+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.324249+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.324250+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.324253+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:18.324257+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:18.324258+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:18.324260+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, 0x0)
+2019-01-09 23:32:18.324267+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.324268+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=0 i=0
+2019-01-09 23:32:18.324417+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.324419+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.324421+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.324423+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:18.324424+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:18.324428+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) IOAudioStream[<private>]::setFormat(<private>, <private>) returns 0x0
+2019-01-09 23:32:18.324896+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::addAudioStream(<private>)
+2019-01-09 23:32:18.324914+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::addAudioStream(<private>) returns 0x0
+2019-01-09 23:32:18.324915+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>)
+2019-01-09 23:32:18.324916+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   64: streamFormat->fNumChannels = 64
+2019-01-09 23:32:18.324917+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.324919+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.324919+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.324920+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.324921+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.324921+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.324923+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, 0x0, <private>) returns 1
+2019-01-09 23:32:18.324928+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::setFormat(<private>, <private>)
+2019-01-09 23:32:18.324929+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>)
+2019-01-09 23:32:18.324930+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   64: streamFormat->fNumChannels = 64
+2019-01-09 23:32:18.324931+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x6c70636d: streamFormat->fSampleFormat = 0x6c70636d
+2019-01-09 23:32:18.324932+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0x73696e74: streamFormat->fNumericRepresentation = 0x73696e74
+2019-01-09 23:32:18.324933+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitDepth = 32
+2019-01-09 23:32:18.324934+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   32: streamFormat->fBitWidth = 32
+2019-01-09 23:32:18.324934+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   1: streamFormat->fAlignment = 1
+2019-01-09 23:32:18.324935+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   0: streamFormat->fByteOrder = 0
+2019-01-09 23:32:18.324938+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioStream[<private>]::validateFormat(<private>, <private>, <private>) returns 1
+2019-01-09 23:32:18.324940+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::pauseAudioEngine()
+2019-01-09 23:32:18.324941+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::pauseAudioEngine() returns 0x0
+2019-01-09 23:32:18.324942+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::performFormatChange(<private>, <private>, <private>, 0x0)
+2019-01-09 23:32:18.324948+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.324950+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=0 i=64
+2019-01-09 23:32:18.325070+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.325071+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.325072+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::sendFormatChangeNotification(<private>)
+2019-01-09 23:32:18.325073+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::resumeAudioEngine()
+2019-01-09 23:32:18.325074+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::resumeAudioEngine() returns 0x0
+2019-01-09 23:32:18.325076+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) IOAudioStream[<private>]::setFormat(<private>, <private>) returns 0x0
+2019-01-09 23:32:18.325216+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::addAudioStream(<private>)
+2019-01-09 23:32:18.325224+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setRunEraseHead(1)
+2019-01-09 23:32:18.325232+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::addAudioStream(<private>) returns 0x0
+2019-01-09 23:32:18.325238+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) +-IOAudioEngine[<private>]::setSampleRate(<private>)
+2019-01-09 23:32:18.325248+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:18.325252+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::setNumSampleFramesPerBuffer(0x4000)
+2019-01-09 23:32:18.325271+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::start(<private>, <private>)
+2019-01-09 23:32:18.325272+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::start(<private>) returns 1
+2019-01-09 23:32:18.325277+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::registerService(0x0)
+2019-01-09 23:32:18.325279+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.325281+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily)   o=64 i=64
+2019-01-09 23:32:18.325434+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::updateChannelNumbers ()
+2019-01-09 23:32:18.325458+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioEngine[<private>]::registerService(0x0)
+2019-01-09 23:32:18.325460+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::activateAudioEngine(<private>, 1) returns 0x0
+2019-01-09 23:32:18.325497+0100 0x4bb      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::start(<private>)
+2019-01-09 23:32:18.325608+0100 0x1e9      Default     0x0                  0      0    kernel: (IOAudioFamily) + IOAudioDevice[<private>]::setPowerState(1, <private>)
+2019-01-09 23:32:18.325610+0100 0x1e9      Default     0x0                  0      0    kernel: (IOAudioFamily) - IOAudioDevice[<private>]::setPowerState(1, <private>) returns 0x0
+2019-01-09 23:32:18.343219+0100 0x2a9      Default     0x0                  85     5    loginwindow: [com.apple.loginwindow.logging:KeyMilestone] main | Login Window Application Started

@@ -1,0 +1,2 @@
+AVDCreateGPUAccelerator: Error loading GPU renderer
+An error was returned by the decoder layer. This may happen for example because of bitstream/data errors during a decode operation. This error may also be returned from VDADecoderCreate when hardware decoder resources are available on the system but currently in use by another process.

@@ -1,0 +1,150 @@
+Index Refs Address            Size       Wired      Name (Version) UUID <Linked Against>
+    1  102 0xffffff7f80c00000 0x9e50     0x9e50     com.apple.kpi.bsd (18.2.0) 53F68796-15D8-42EF-ADA5-F8123FB250E0
+    2   14 0xffffff7f81219000 0x3900     0x3900     com.apple.kpi.dsep (18.2.0) 942DF532-DA39-47A4-94C6-35CC08238B7A
+    3  133 0xffffff7f80c2a000 0x21be0    0x21be0    com.apple.kpi.iokit (18.2.0) 485B8445-9986-42F3-B8D0-9BAB1B6DBF8D
+    4    0 0xffffff7f83260000 0x34b0     0x34b0     com.apple.kpi.kasan (18.2.0) 684C2E43-81D7-4C55-A0F3-97DB154B70E9
+    5  141 0xffffff7f80c0a000 0xd7b0     0xd7b0     com.apple.kpi.libkern (18.2.0) 2710D2EE-C696-4349-A1DE-A746D2391281
+    6  125 0xffffff7f80c18000 0x3f60     0x3f60     com.apple.kpi.mach (18.2.0) 2C208D17-1E8E-4D16-91A7-3B5260FDD6AC
+    7   72 0xffffff7f80c1c000 0xd480     0xd480     com.apple.kpi.private (18.2.0) 5F3C0F51-6E3F-4A9A-B37B-603BFF97D932
+    8   88 0xffffff7f80c8f000 0x5ed0     0x5ed0     com.apple.kpi.unsupported (18.2.0) 7B7E8683-CCD5-46C3-9B85-AD6C227DAF27
+    9    2 0xffffff7f80d10000 0x10000    0x10000    com.apple.kec.Libm (1) 1B82D7C4-28DD-31CC-9D03-52579B15FBAC <5>
+   10    9 0xffffff7f8121d000 0xb5000    0xb5000    com.apple.kec.corecrypto (1.0) 0F77793D-78A0-3EA4-B2AC-A287F438DE3A <8 7 6 5 3 1>
+   11    0 0xffffff7f822a2000 0xa000     0xa000     com.apple.kec.pthread (1) 6EE76787-10DD-3FD2-A8C9-CFA31548D58B <8 7 6 5 3 1>
+   12   30 0xffffff7f813d8000 0x9000     0x9000     com.apple.iokit.IOACPIFamily (1.4) 99A8A054-9F64-3FB8-BB1D-5973F8AB04A1 <8 7 5 3>
+   13   40 0xffffff7f80c95000 0x35000    0x35000    com.apple.iokit.IOPCIFamily (2.9) 7EA30FDD-A2FB-390F-99DD-42BC19691BB4 <8 7 6 5 3>
+   14    9 0xffffff7f813e1000 0x1e000    0x1e000    com.apple.driver.AppleSMC (3.1.9) 9FAF842D-CCF4-3F6A-893D-DD542139F128 <13 12 8 7 6 5 3 1>
+   15    1 0xffffff7f8235b000 0x9c000    0x9c000    com.apple.driver.AppleACPIPlatform (6.1) 52CE91F1-D89E-3BF2-A5BE-0A914968DC65 <14 13 12 8 7 6 5 3 1>
+   16    6 0xffffff7f8110b000 0x30000    0x30000    com.apple.iokit.IONetworkingFamily (3.4) 3F8CF549-42D5-33F3-A686-5FDFCB7F45AC <8 7 6 5 3 1>
+   17    2 0xffffff7f81142000 0x2d000    0x2d000    com.apple.iokit.IOTimeSyncFamily (700.7) BCD63A8F-C0E9-3D46-99D2-C85405701F54 <16 6 5 3 1>
+   18    3 0xffffff7f81923000 0x7000     0x7000     com.apple.iokit.IOReportFamily (47) 75A625B5-0DEB-343A-A723-9D72533F098C <6 5 3>
+   19    4 0xffffff7f81a53000 0x7000     0x7000     com.apple.driver.IOSlaveProcessor (1) EB5E38E3-BB7B-358C-96AE-C3D60383179A <5 3>
+   20    3 0xffffff7f82fdf000 0x18000    0x18000    com.apple.driver.AppleSEPManager (1.0.1) 87D52C5F-5190-3029-A328-9367CB797765 <19 13 10 8 7 6 5 3 1>
+   21    1 0xffffff7f81401000 0x8000     0x8000     com.apple.driver.AppleBusPowerController (1.0) 259C3224-6994-3543-8911-D6B91EAD498C <14 12 7 6 5 3>
+   22   10 0xffffff7f81409000 0x8000     0x8000     com.apple.driver.usb.AppleUSBCommon (1.0) 46BD3E9A-9FF2-3806-B397-F45A4E834547 <6 5 3 1>
+   23   16 0xffffff7f81411000 0x7b000    0x7b000    com.apple.iokit.IOUSBHostFamily (1.2) 28523125-5E51-38C1-B721-16166115E54E <22 21 8 7 6 5 3 1>
+   24    3 0xffffff7f81f18000 0x1d000    0x1d000    com.apple.driver.KernelRelayHost (1) 7E192DB5-F832-3D89-AF6E-4BE28762F02E <23 6 5 3>
+   25    1 0xffffff7f8300c000 0x3e000    0x3e000    com.apple.driver.AppleCredentialManager (1.0) 623BD357-6A0F-3172-B615-F21FB1FF8DEC <24 20 19 10 8 7 6 5 3 1>
+   26    8 0xffffff7f810d7000 0x28000    0x28000    com.apple.iokit.IOStorageFamily (2.1) 7D6A3E9B-D1CD-3F8B-9800-C4B943806679 <8 7 6 5 3 1>
+   27    3 0xffffff7f80c4c000 0x2b000    0x2b000    com.apple.iokit.IOSCSIArchitectureModelFamily (408.200.1) 2D5CF6DE-6FFA-3B50-B138-3BE3D4427812 <7 6 5 3 1>
+   28    1 0xffffff7f822c5000 0x19000    0x19000    com.apple.iokit.IOSCSIBlockCommandsDevice (408.200.1) 49698A27-4262-35B9-9E19-0FE108416B54 <27 26 7 6 5 3 1>
+   29    1 0xffffff7f822e2000 0x2d000    0x2d000    com.apple.iokit.IOUSBMassStorageDriver (145.200.2) C9501B48-4947-3E28-A419-0729222A250E <27 26 23 7 6 5 3 1>
+   30    1 0xffffff7f812d2000 0xa000     0xa000     com.apple.kext.CoreTrust (1) 3BD2FF78-359B-3C2A-8775-EEDD0BE3F98B <10 5>
+   31    5 0xffffff7f812dc000 0x1d000    0x1d000    com.apple.driver.AppleMobileFileIntegrity (1.0.5) A69BF990-ABB3-3731-A7A2-9C1FB76BCF6F <30 10 8 7 6 5 3 2 1>
+   32    1 0xffffff7f82316000 0x13000    0x13000    com.apple.driver.AppleUSBTDM (456.230.1) FED65615-C9CD-389E-9772-11B4B367398D <31 29 28 27 26 23 8 7 6 5 3 1>
+   33    0 0xffffff7f8304a000 0x69000    0x69000    com.apple.driver.AppleKeyStore (2) 97DF2B63-D03E-3EA9-ABED-BA5C461521F6 <32 31 25 24 20 19 10 8 7 6 5 3 1>
+   34    2 0xffffff7f8188c000 0xc000     0xc000     com.apple.driver.AppleEffaceableStorage (1.0) BE15F7D7-153A-3D24-8A9A-DAB34B23FCF6 <8 6 5 3 1>
+   35    0 0xffffff7f8311e000 0xc000     0xc000     com.apple.driver.AppleFDEKeyStore (28.30) FD2A17B7-F835-32A9-9AE3-E70DEC0B0794 <34 10 8 7 6 5 3 1>
+   36    0 0xffffff7f831dc000 0x32000    0x32000    com.apple.driver.AppleIntelCPUPowerManagement (220.0.0) 6FFE4E89-581C-323F-9B64-8B211FFB9F0E <8 7 6 5 3 1>
+   37    0 0xffffff7f8350b000 0x19000    0x19000    com.apple.driver.DiskImages (493.0.0) 81642D4E-F204-3227-8B31-BFC8CD1DDC32 <26 8 7 6 5 3 1>
+   38    4 0xffffff7f83f16000 0x11000    0x11000    org.netkas.driver.FakeSMC (1800) FC7031CC-C949-35D1-AC1A-CA8DB349793E <12 8 6 5 3 1>
+   39    0 0xffffff7f83f27000 0x5000     0x5000     com.rehabman.driver.USBInjectAll (0.7.1) A5767EA0-3760-3131-B996-28EE85139CF5 <13 12 5 3>
+   40    3 0xffffff7f83f2c000 0x79000    0x79000    as.vit9696.Lilu (1.3.1) E4F1C840-CC88-3BBD-9618-83F1D390D36A <8 6 5 3 2 1>
+   41    0 0xffffff7f83fa5000 0x7b000    0x7b000    as.vit9696.WhateverGreen (1.2.6) AE212E69-BED0-314D-A7B6-050E6B99A0F5 <40 13 8 6 5 3 2 1>
+   42    0 0xffffff7f84020000 0xf9000    0xf9000    as.vit9696.AppleALC (1.3.4) D1177F26-B05D-3962-81B3-762B82830868 <40 13 8 6 5 3 2 1>
+   43    0 0xffffff7f84119000 0x3000     0x3000     org.vulgo.NoVPAJpeg (1.2.8) 19AAADD0-21F4-3BDC-92DF-6E4B945BFD71 <40 8 6 5 3 2 1>
+   44    0 0xffffff7f8411c000 0x6000     0x6000     org.hwsensors.driver.CPUSensors (1800) ED90DA0F-5876-3DB5-82EC-CEEA470A7479 <38 8 6 5 3>
+   45    2 0xffffff7f812f9000 0x5000     0x5000     com.apple.kext.AppleMatch (1.0.0d1) 462A2C25-732E-3F63-A15A-B2D7F984D9E9 <5 1>
+   46    2 0xffffff7f812fe000 0x31000    0x31000    com.apple.security.sandbox (300.0) 268A5FEF-68BE-35B1-886F-99DFB1B09B38 <45 31 26 8 7 6 5 3 2 1>
+   47    1 0xffffff7f8132f000 0x8000     0x8000     com.apple.security.quarantine (3) 101BC32B-C030-367E-8999-E63343838652 <46 45 8 7 6 5 2 1>
+   48    0 0xffffff7f83508000 0x3000     0x3000     com.apple.security.TMSafetyNet (8) 4E59E1CA-F619-3AE7-9922-43C92A266A3B <8 7 6 5 2 1>
+   49    0 0xffffff7f835fd000 0xb000     0xb000     com.apple.nke.applicationfirewall (190) 208D3667-B3E8-3404-9A96-5C1F169FC6F1 <8 7 6 5 3 1>
+   50    0 0xffffff7f8326b000 0x5000     0x5000     com.apple.driver.AppleIntelCPUPowerManagementClient (220.0.0) EC159441-B2CF-37AC-908D-CFC283FE9DBF <8 7 6 5 3 1>
+   51    0 0xffffff7f83656000 0x5000     0x5000     com.apple.driver.AppleAPIC (1.7) 46FCC78F-7A9E-3614-A5F6-EEF2A50A4A67 <13 5 3>
+   52    0 0xffffff7f82fc3000 0x6000     0x6000     com.apple.driver.AppleSMBIOS (2.1) F94DD634-8A7E-3C1F-B014-97F99EDF4C08 <8 5 3>
+   54   19 0xffffff7f8157f000 0x4b000    0x4b000    com.apple.iokit.IOGraphicsFamily (530.14) C5617AC3-A68D-36CE-AC22-7C7C81318961 <13 8 6 5 3 1>
+   55    4 0xffffff7f818be000 0x10000    0x10000    com.apple.iokit.IONDRVSupport (530) 1F572217-4A67-3472-A183-142F10A584D2 <54 13 8 6 5 3>
+   56    1 0xffffff7f818ce000 0x6000     0x6000     com.apple.driver.AppleBacklightExpert (1.1.0) BBD31948-BD3D-3EBB-A3EE-E3880346A5EB <55 54 14 13 6 5 3>
+   57    0 0xffffff7f834a0000 0x8000     0x8000     com.apple.driver.AppleBacklight (170.12.11) B0CE7EF6-EB1D-31FC-8189-F9568E6FB4EA <56 55 54 13 6 5 3>
+   58    0 0xffffff7f81f0d000 0xb000     0xb000     com.apple.driver.AppleRTC (2.0) EAEEF651-7908-38EF-A817-ABE0D6005CBC <12 8 6 5 3 1>
+   59    5 0xffffff7f81344000 0x7e000    0x7e000    com.apple.iokit.IOHIDFamily (2.0.0) 2AEFB432-C333-3CFC-955E-24BBDDDE0F5E <8 7 6 5 3 2 1>
+   60    0 0xffffff7f8240a000 0x8000     0x8000     com.apple.driver.AppleACPIButtons (6.1) 3A808674-21BD-3358-BFA7-1E99B3006D82 <59 18 15 12 8 7 6 5 3 1>
+   61    0 0xffffff7f8331c000 0x5000     0x5000     com.apple.driver.AppleHPET (1.8) 784E4E15-3762-3886-9A11-33AF0A9810C1 <12 8 6 5 3>
+   62    0 0xffffff7f84126000 0xa000     0xa000     org.hwsensors.driver.ACPISensors (1800) FA4DF6C0-0D3A-3CE2-8569-0AB2C84053E7 <38 12 8 6 5 3>
+   63    1 0xffffff7f814ad000 0x5000     0x5000     com.apple.driver.AppleEFIRuntime (2.1) 789934D3-2534-3DD3-BA30-DB4CF52D9D7B <8 7 6 5 3>
+   64    2 0xffffff7f814b2000 0xb000     0xb000     com.apple.driver.AppleEFINVRAM (2.1) E68F9756-227E-3378-8E22-F37409594A7F <63 8 7 6 5 3 1>
+   65    0 0xffffff7f83619000 0x5000     0x5000     com.apple.private.KextAudit (1.0) 6CC4204B-0634-3CF3-9F09-E45F0B584EAD <14 8 7 6 5 3>
+   66    1 0xffffff7f816d3000 0x56000    0x56000    com.apple.driver.usb.AppleUSBXHCI (1.2) 7F694937-2965-3985-B5D1-95642D87688C <23 22 12 8 7 6 5 3 1>
+   67    0 0xffffff7f817d0000 0x2f000    0x2f000    com.apple.driver.usb.AppleUSBXHCIPCI (1.2) 94B23905-04C8-311B-9221-AAB88975A25D <66 23 22 13 12 8 7 6 5 3 1>
+   68    2 0xffffff7f80fad000 0x1a000    0x1a000    com.apple.iokit.IOAHCIFamily (288) 4C9B6D3B-8F1D-33CB-8CCB-89CAD0A485BC <6 5 3 1>
+   69    0 0xffffff7f834e5000 0x1c000    0x1c000    com.apple.driver.AppleAHCIPort (329.200.2) 871E1927-7110-3DEF-A741-136D53AE8A90 <68 13 6 5 3 1>
+   70    1 0xffffff7f81674000 0x47000    0x47000    com.apple.driver.usb.AppleUSBEHCI (1.2) EA680738-BC91-304A-8B9C-6938E409A04C <23 22 12 8 7 6 5 3 1>
+   71    0 0xffffff7f816c0000 0x10000    0x10000    com.apple.driver.usb.AppleUSBEHCIPCI (1.2) 1B3087F7-9EEB-3980-B89B-409BF017B438 <70 23 22 13 12 8 7 6 5 3 1>
+   72    0 0xffffff7f84130000 0x15000    0x15000    org.hwsensors.driver.GPUSensors (1800) C6BE6BDA-2398-3318-BCF0-F519AD4DB140 <38 13 12 8 6 5 3>
+   73    0 0xffffff7f84145000 0xd000     0xd000     org.hwsensors.driver.LPCSensors (1800) EF5BB9DC-C33F-3EED-9F96-42A7F22D806F <38 13 12 8 6 5 3>
+   74    0 0xffffff7f84152000 0x6a000    0x6a000    com.insanelymac.RealtekRTL8111 (2.2.2) 24D129C7-C25C-3D7B-9E10-EA71D9BE6511 <16 13 6 5 3 1>
+   75    0 0xffffff7f8254d000 0x27000    0x27000    com.apple.iokit.IOAHCIBlockStorage (301.200.2) 64DC26B2-7817-3E86-BE80-ABB84BFE253C <68 64 26 7 6 5 3 1>
+   77    1 0xffffff7f8193b000 0x111000   0x111000   com.apple.filesystems.apfs (945.230.6) 60380132-AE9F-3720-B7BF-1653155D78BD <34 26 10 8 7 6 5 3 1>
+   78    1 0xffffff7f814bd000 0x9b000    0x9b000    com.apple.iokit.IOUSBFamily (900.4.2) 3E59E6AE-1814-3BCA-AC64-EB7B169C1F9D <23 22 13 8 6 5 3 1>
+   79    0 0xffffff7f817cb000 0x5000     0x5000     com.apple.driver.usb.AppleUSBHostPacketFilter (1.0) 327589D5-3A3E-3CDC-BC35-9870B71D205A <23 22 8 7 6 5 3 1>
+   80    0 0xffffff7f81337000 0xd000     0xd000     com.apple.AppleSystemPolicy (1.0) D8F52D1B-4DFD-3FC4-8BD1-EA7FFAB5252F <47 46 31 8 7 6 5 3 2 1>
+   81    1 0xffffff7f81577000 0x8000     0x8000     com.apple.filesystems.hfs.encodings.kext (1) DFFDAA59-E96C-3154-AEF7-57615129D7C3 <8 7 6 5 3 1>
+   82    0 0xffffff7f81609000 0xe000     0xe000     com.apple.AppleFSCompression.AppleFSCompressionTypeZlib (1.0.0) B6A59F0D-6ADB-3F6A-B70A-6F5545152C05 <7 5 3 2 1>
+   83    0 0xffffff7f81da7000 0x10000    0x10000    com.apple.BootCache (40) 03E7E1A0-D640-3D55-8BEE-74D808894BE6 <8 7 6 5 3 1>
+   84    0 0xffffff7f829b7000 0x4000     0x4000     com.apple.AppleFSCompression.AppleFSCompressionTypeDataless (1.0.0d1) AEA21480-0918-3103-B57F-5E9E75630122 <8 7 5 3 2 1>
+   85    0 0xffffff7f83321000 0x70000    0x70000    com.apple.filesystems.hfs.kext (407.200.4) 1ECE1137-785A-3934-8CFB-F726BE37EF5F <81 8 7 6 5 3 1>
+   86    3 0xffffff7f8278c000 0xe000     0xe000     com.apple.iokit.IOSerialFamily (11) 663F512E-C819-3D9C-93E3-AC6C07F27A9D <8 7 6 5 3 1>
+   87    0 0xffffff7f83564000 0x1c000    0x1c000    com.apple.driver.AppleVirtIO (2.1.2) 15515BF4-BE55-36AC-889A-4B1BB2858526 <86 26 13 6 5 3 1>
+   89    0 0xffffff7f81730000 0x35000    0x35000    com.apple.driver.usb.AppleUSBHub (1.2) 32AB9BA2-BA81-32AD-B4B8-B080750F5FD9 <23 22 12 6 5 3 1>
+   90    1 0xffffff7f8176d000 0x4000     0x4000     com.apple.driver.AppleUSBHostMergeProperties (1.2) 5BE9AD31-236B-32F5-A29A-8A6DFDD4F534 <5 3 1>
+   91    1 0xffffff7f81494000 0x8000     0x8000     com.apple.driver.usb.AppleUSBHostCompositeDevice (1.2) 366036F0-AC1A-3B73-A6F6-90816E48D751 <23 22 7 6 5 3 1>
+   92    0 0xffffff7f81635000 0x8000     0x8000     com.apple.driver.usb.networking (5.0.0) 28ED5A1D-DF6B-3836-9A7D-572F57623449 <23 7 6 5 3 1>
+   94    2 0xffffff7f80d20000 0xce000    0xce000    com.apple.vecLib.kext (1.2.0) 9CF55BF4-B8F5-3605-87A6-7149E13F461B <9 7 6 5 3>
+   95    6 0xffffff7f80dee000 0x3f000    0x3f000    com.apple.iokit.IOAudioFamily (206.5) 2D823CAE-0134-3F4A-9C86-795C749DDF4B <94 6 5 3 1>
+   96    1 0xffffff7f8149c000 0xc000     0xc000     com.apple.driver.usb.IOUSBHostHIDDevice (1.2) ABD85FB9-07A4-37BC-AEC4-753BDE10F506 <59 23 22 6 5 3 1>
+   97    0 0xffffff7f81a77000 0x66000    0x66000    com.apple.driver.AppleUSBAudio (315.6) 46A8D67F-C265-30A0-9F64-D8B32F4E8273 <96 95 91 90 23 13 6 5 3 1>
+   98    0 0xffffff7f8317c000 0xb000     0xb000     com.apple.driver.AppleHIDKeyboard (208) 2A967A40-DEB2-3B5E-A03D-90F72D93653F <59 6 5 3>
+   99    1 0xffffff7f815d7000 0x5000     0x5000     com.apple.iokit.IOSlowAdaptiveClockingFamily (1.0.0) 92EE1DF0-90B6-370E-A9E6-347E2ED903FC <8 7 6 5 3 1>
+  100    0 0xffffff7f8327b000 0x4000     0x4000     com.apple.driver.AppleIntelSlowAdaptiveClocking (4.0.0) 6C2A218B-5497-357B-9B3D-5F6AB495DA6D <99 5 3>
+  101    0 0xffffff7f80f9f000 0x7000     0x7000     com.intel.driver.EnergyDriver (3.5.5) 60449181-1B5B-374C-84C4-F81DDE69DAF8 <8 6 5 3>
+  102    6 0xffffff7f81898000 0x9000     0x9000     com.apple.AppleGraphicsDeviceControl (3.28.4) 400C2E21-0880-36D7-AC5E-6B9BC885F158 <54 13 8 7 6 5 3 1>
+  103    0 0xffffff7f818db000 0xd000     0xd000     com.apple.AppleGPUWrangler (3.28.4) D61F64EE-E8D7-3E54-BEF9-4555C7A2F241 <102 54 13 8 7 6 5 3 1>
+  104    2 0xffffff7f81ae5000 0x22000    0x22000    com.apple.iokit.IOSurface (255.1) CAF77C5D-98FF-33D0-B31C-FC327D7AD4F6 <8 7 6 5 3 1>
+  105    2 0xffffff7f81b09000 0xa5000    0xa5000    com.apple.iokit.IOAcceleratorFamily2 (404.2.2) FA92A03C-F113-384A-9B1F-B2C52DE7F4D2 <104 54 31 18 13 8 7 6 5 3 1>
+  106    0 0xffffff7f81bbe000 0x11a000   0x11a000   com.apple.driver.AppleIntelFramebufferCapri (12.0.4) B3027058-3C6B-3A4E-8CE1-C7436F751343 <105 102 54 13 12 8 7 6 5 3 1>
+  107    0 0xffffff7f834a8000 0x8000     0x8000     com.apple.driver.AudioAUUC (1.70) 6F364705-FC37-3CA8-8E15-C2E3000CE205 <95 54 13 12 8 6 5 3 1>
+  108    2 0xffffff7f82578000 0x1f6000   0x1f6000   com.apple.kext.AMDSupport (2.0.4) 1FF9C137-B26D-3DE1-825F-1981E986FC16 <102 54 13 12 8 6 5 3 1>
+  109    0 0xffffff7f83ddc000 0xc7000    0xc7000    com.apple.kext.AMD7000Controller (2.0.4) DD9ACA5F-EAE9-3BBA-B2B1-B34AACC9393C <108 102 54 13 12 6 5 3 1>
+  110    0 0xffffff7f8320e000 0x7000     0x7000     com.apple.driver.AppleOSXWatchdog (1) F677275E-0C32-3CCB-9AE8-FD02558657AB <13 8 7 6 5 3 1>
+  111    0 0xffffff7f83f0e000 0x8000     0x8000     com.apple.driver.AppleSMCLMU (212) D091FA23-0C35-32D8-8E6C-D1DEC3EEA1BF <54 14 6 5 3>
+  114    2 0xffffff7f81f38000 0xc000     0xc000     com.apple.iokit.IOHDAFamily (282.10) B553255E-87B3-3258-BE61-933DD039A18C <6 5 3 1>
+  115    1 0xffffff7f81f47000 0x1d000    0x1d000    com.apple.driver.AppleHDAController (282.10) 70256EC9-AF38-31BD-A3C5-9C0E30B64AA3 <114 95 54 13 8 7 6 5 3 1>
+  116    0 0xffffff7f829bb000 0x3000     0x3000     com.apple.driver.AppleSMBusPCI (1.0.14d1) 185C5DD5-9803-3AD8-A391-A4F45FFF101E <13 6 5 3>
+  117    4 0xffffff7f82412000 0xa000     0xa000     com.apple.driver.IOPlatformPluginFamily (6.0.0d8) 9DF17529-5D31-365E-A28F-D5581C4D18B4 <12 8 7 6 5 3>
+  118    0 0xffffff7f8241c000 0x5000     0x5000     com.apple.driver.AppleLPC (3.1) 14EE81C5-2240-3C11-A1BA-70CB64D9A25D <117 13 6 5 3>
+  119    1 0xffffff7f8279d000 0xf000     0xf000     com.apple.driver.Apple16X50Serial (3.2) 5D58523F-F47C-3250-87F5-0C7EBAD2CFC5 <86 13 6 5 3>
+  120    0 0xffffff7f827ac000 0x4000     0x4000     com.apple.driver.Apple16X50ACPI (3.2) AF3C253F-B8F3-3D62-B427-48C92526CFBC <119 12 5 3>
+  121    0 0xffffff7f833a3000 0x6000     0x6000     com.apple.Dont_Steal_Mac_OS_X (7.0.0) E8A46A07-5CA9-3449-AB3C-194D7EDBDEC6 <14 10 8 5 3 1>
+  122    0 0xffffff7f832eb000 0x17000    0x17000    com.apple.driver.pmtelemetry (1) 90FED9E0-C0C8-36C4-8231-99FF16B46CB0 <8 7 6 5 3>
+  123    0 0xffffff7f82832000 0xf6000    0xf6000    com.apple.iokit.IOBluetoothFamily (6.0.9f2) 6437483C-5DDE-3E8F-92B5-2F890F3BC952 <23 18 12 8 7 6 5 3 1>
+  124    0 0xffffff7f832c1000 0xe000     0xe000     com.apple.iokit.IOBluetoothSerialManager (6.0.9f2) 6D248369-38DB-3948-B7B6-C62D339B55A7 <86 8 6 5 3 1>
+  125    1 0xffffff7f8244c000 0x18000    0x18000    com.apple.driver.X86PlatformPlugin (1.0.0) F5B7D100-AD52-386F-9F29-668FDCD0FE7D <117 78 23 14 12 8 7 6 5 3 1>
+  128    0 0xffffff7f830b3000 0xd000     0xd000     com.apple.driver.AppleSSE (1.0) 820E89F2-2F5E-3673-AF12-FAB3726810D2 <24 20 19 8 6 5 3 1>
+  129    0 0xffffff7f82fc9000 0xa000     0xa000     com.apple.iokit.IOUserEthernet (1.0.1) 67F54A00-494C-357F-B4FF-6A291C66C4DA <16 7 6 5 3 1>
+  130    0 0xffffff7f8281c000 0xe000     0xe000     com.apple.driver.AppleHV (1) 70BE21E9-ED1C-3847-841B-F3692643F387 <8 7 6 5 3 1>
+  131    2 0xffffff7f81ce0000 0x7000     0x7000     com.apple.iokit.IOEthernetAVBController (1.1.0) 43E4FF0D-16A8-32EB-AAC0-73ADB153914E <16 6 5 3 1>
+  132    1 0xffffff7f81ce7000 0x9b000    0x9b000    com.apple.plugin.IOgPTPPlugin (700.7) F27998C4-8FEA-392F-B132-F6A67CB4BC1B <131 59 17 16 9 7 6 5 3 1>
+  133    0 0xffffff7f81d95000 0x10000    0x10000    com.apple.iokit.IOAVBFamily (710.1) 2B2C886C-C656-3782-998D-79172349C318 <132 131 17 16 7 6 5 3 1>
+  134    1 0xffffff7f81f6a000 0x4000     0x4000     com.apple.iokit.IOSMBusFamily (1.1) BC6BE924-53E3-318A-A1B7-B896FA559717 <6 5 3>
+  135    2 0xffffff7f81f6e000 0xe000     0xe000     com.apple.driver.AppleSMBusController (1.0.18d1) 358B8FF6-88DE-31BD-BF81-34E04A558829 <134 13 12 6 5 3>
+  136    0 0xffffff7f80e35000 0xa000     0xa000     com.Cycling74.driver.Soundflower (2) 2D779840-7439-31E5-8A66-D786C3F47B75 <95 6 5 3>
+  137    0 0xffffff7f818a3000 0x4000     0x4000     com.apple.AGDCPluginDisplayMetrics (3.28.4) 80FF8D30-0F1F-3EAD-8C06-126254E42C02 <102 8 7 6 5 3 1>
+  140    0 0xffffff7f83db9000 0x12000    0x12000    com.apple.kext.AMDRadeonX4000HWServices (2.0.4) A06396FC-2A7A-3E85-8A5A-A17DEE69F6A1 <54 13 12 8 6 5 3 1>
+  141    0 0xffffff7f829be000 0x5bc000   0x5bc000   com.apple.kext.AMDRadeonX4000 (2.0.4) 89FA9716-954A-33D9-AE49-273C84E69A19 <105 104 54 13 8 6 5 3 1>
+  142    0 0xffffff7f8365f000 0x74f000   0x74f000   com.apple.kext.AMDRadeonX4030HWLibs (1.0) A79BE6E7-2C1D-3187-BC84-54436DCF34B9 <13 6 5 3 1>
+  143    1 0xffffff7f82464000 0x9000     0x9000     com.apple.driver.X86PlatformShim (1.0.0) 6E37DB1C-5DF5-3F7A-9716-81C076F8E3BF <125 117 14 8 5 3>
+  144    0 0xffffff7f8312a000 0x20000    0x20000    com.apple.driver.AGPM (110.23.46) 9A7BD08F-08E4-3DB7-A339-706609B0149A <117 102 55 54 13 7 6 5 3>
+  145    0 0xffffff7f83264000 0x7000     0x7000     com.apple.driver.ApplePlatformEnabler (2.7.0d0) 8A5BD78F-CEBD-39E1-923C-CD50627509D8 <8 6 5 3>
+  146    1 0xffffff7f81fa3000 0x13000    0x13000    com.apple.kext.OSvKernDSPLib (527) C39D546B-2D04-3E1E-A96F-9A478137270E <6 5>
+  147    1 0xffffff7f81fb6000 0x142000   0x142000   com.apple.driver.DspFuncLib (282.10) F5B4377A-62C3-3034-80CE-99FF5F2DF7C8 <146 95 94 64 7 6 5 3 1>
+  148    0 0xffffff7f82103000 0xea000    0xea000    com.apple.driver.AppleHDA (282.10) B2208DA8-8CD9-36D8-BD59-C6D9A5379585 <147 115 114 95 55 54 7 6 5 3 1>
+  149    0 0xffffff7f81f7f000 0x21000    0x21000    com.apple.driver.AppleMikeyDriver (282.10) 718D8878-FCDD-362F-BD81-A30176EAD73D <135 12 6 5 3 1>
+  151    4 0xffffff7f83eae000 0x60000    0x60000    com.apple.filesystems.ntfs (3.13) 88C362BF-0B0E-32DF-9D85-AF9703B048B8 <8 7 6 5 1>
+  152    0 0xffffff7f830df000 0x3d000    0x3d000    com.apple.kext.AMDFramebuffer (2.0.4) 2D69971B-8668-3D6E-8EFA-7927C29FBCC6 <108 54 13 12 8 6 5 3 1>
+  153    0 0xffffff7f832d1000 0x17000    0x17000    com.apple.driver.AppleMCCSControl (1.5.6) 2A77F45F-2682-337F-88D0-AECA120C5832 <135 54 14 13 12 8 6 5 3 1>
+  154    0 0xffffff7f830d0000 0x9000     0x9000     com.apple.driver.AppleUpstreamUserClient (3.6.5) 494501D4-CFB0-3474-8F18-04CEB5F56E82 <54 13 12 8 6 5 3 1>
+  155    2 0xffffff7f8246d000 0x5000     0x5000     com.apple.kext.triggers (1.0) B632A1C4-BDEA-35DF-B320-C5D2E77C241F <8 7 6 5 3 1>
+  156    0 0xffffff7f83270000 0xb000     0xb000     com.apple.filesystems.autofs (3.0) 9F33B8ED-D4DB-31A7-8E12-7ECE9F6CDE9A <155 8 7 6 5 3 2 1>
+  157    0 0xffffff7f8365b000 0x4000     0x4000     com.apple.driver.AppleMikeyHIDDriver (131) 415F11F4-C7A7-3E59-8C0B-AC27D2B0A071 <59 8 5 3 1>
+  158    0 0xffffff7f81619000 0x1c000    0x1c000    com.apple.fileutil (18.306.12) C5EF45E1-B31A-3DC0-827C-5057DAAADDE6 <6 5 3 2 1>
+  159    0 0xffffff7f82472000 0x6c000    0x6c000    com.apple.filesystems.smbfs (3.3.1) E8502198-6395-35AA-9DBD-35AD93251D37 <155 10 8 7 6 5 3 1>
+  160    1 0xffffff7f841bc000 0x11000    0x11000    com.apple.filesystems.msdosfs (1.10) BA2C22D4-9414-3864-8C30-C10941599FD4 <8 6 5 1>

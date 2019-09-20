@@ -1,0 +1,1 @@
+machdep.cpu.brand_string: Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz

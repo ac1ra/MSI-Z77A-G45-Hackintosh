@@ -1,0 +1,26 @@
+   73    0 0xffffff7f84145000 0xd000     0xd000     org.hwsensors.driver.LPCSensors (1800) EF5BB9DC-C33F-3EED-9F96-42A7F22D806F <38 13 12 8 6 5 3>
+  118    0 0xffffff7f8241c000 0x5000     0x5000     com.apple.driver.AppleLPC (3.1) 14EE81C5-2240-3C11-A1BA-70CB64D9A25D <117 13 6 5 3>
+  115    1 0xffffff7f81f47000 0x1d000    0x1d000    com.apple.driver.AppleHDAController (282.10) 70256EC9-AF38-31BD-A3C5-9C0E30B64AA3 <114 95 54 13 8 7 6 5 3 1>
+  148    0 0xffffff7f82103000 0xea000    0xea000    com.apple.driver.AppleHDA (282.10) B2208DA8-8CD9-36D8-BD59-C6D9A5379585 <147 115 114 95 55 54 7 6 5 3 1>
+  116    0 0xffffff7f829bb000 0x3000     0x3000     com.apple.driver.AppleSMBusPCI (1.0.14d1) 185C5DD5-9803-3AD8-A391-A4F45FFF101E <13 6 5 3>
+  134    1 0xffffff7f81f6a000 0x4000     0x4000     com.apple.iokit.IOSMBusFamily (1.1) BC6BE924-53E3-318A-A1B7-B896FA559717 <6 5 3>
+  135    2 0xffffff7f81f6e000 0xe000     0xe000     com.apple.driver.AppleSMBusController (1.0.18d1) 358B8FF6-88DE-31BD-BF81-34E04A558829 <134 13 12 6 5 3>
+   36    0 0xffffff7f831dc000 0x32000    0x32000    com.apple.driver.AppleIntelCPUPowerManagement (220.0.0) 6FFE4E89-581C-323F-9B64-8B211FFB9F0E <8 7 6 5 3 1>
+   50    0 0xffffff7f8326b000 0x5000     0x5000     com.apple.driver.AppleIntelCPUPowerManagementClient (220.0.0) EC159441-B2CF-37AC-908D-CFC283FE9DBF <8 7 6 5 3 1>
+   15    1 0xffffff7f8235b000 0x9c000    0x9c000    com.apple.driver.AppleACPIPlatform (6.1) 52CE91F1-D89E-3BF2-A5BE-0A914968DC65 <14 13 12 8 7 6 5 3 1>
+  125    1 0xffffff7f8244c000 0x18000    0x18000    com.apple.driver.X86PlatformPlugin (1.0.0) F5B7D100-AD52-386F-9F29-668FDCD0FE7D <117 78 23 14 12 8 7 6 5 3 1>
+  143    1 0xffffff7f82464000 0x9000     0x9000     com.apple.driver.X86PlatformShim (1.0.0) 6E37DB1C-5DF5-3F7A-9716-81C076F8E3BF <125 117 14 8 5 3>
+Index Refs Address            Size       Wired      Name (Version) UUID <Linked Against>
+   38    4 0xffffff7f83f16000 0x11000    0x11000    org.netkas.driver.FakeSMC (1800) FC7031CC-C949-35D1-AC1A-CA8DB349793E <12 8 6 5 3 1>
+   39    0 0xffffff7f83f27000 0x5000     0x5000     com.rehabman.driver.USBInjectAll (0.7.1) A5767EA0-3760-3131-B996-28EE85139CF5 <13 12 5 3>
+   40    3 0xffffff7f83f2c000 0x79000    0x79000    as.vit9696.Lilu (1.3.1) E4F1C840-CC88-3BBD-9618-83F1D390D36A <8 6 5 3 2 1>
+   41    0 0xffffff7f83fa5000 0x7b000    0x7b000    as.vit9696.WhateverGreen (1.2.6) AE212E69-BED0-314D-A7B6-050E6B99A0F5 <40 13 8 6 5 3 2 1>
+   42    0 0xffffff7f84020000 0xf9000    0xf9000    as.vit9696.AppleALC (1.3.4) D1177F26-B05D-3962-81B3-762B82830868 <40 13 8 6 5 3 2 1>
+   43    0 0xffffff7f84119000 0x3000     0x3000     org.vulgo.NoVPAJpeg (1.2.8) 19AAADD0-21F4-3BDC-92DF-6E4B945BFD71 <40 8 6 5 3 2 1>
+   44    0 0xffffff7f8411c000 0x6000     0x6000     org.hwsensors.driver.CPUSensors (1800) ED90DA0F-5876-3DB5-82EC-CEEA470A7479 <38 8 6 5 3>
+   62    0 0xffffff7f84126000 0xa000     0xa000     org.hwsensors.driver.ACPISensors (1800) FA4DF6C0-0D3A-3CE2-8569-0AB2C84053E7 <38 12 8 6 5 3>
+   72    0 0xffffff7f84130000 0x15000    0x15000    org.hwsensors.driver.GPUSensors (1800) C6BE6BDA-2398-3318-BCF0-F519AD4DB140 <38 13 12 8 6 5 3>
+   73    0 0xffffff7f84145000 0xd000     0xd000     org.hwsensors.driver.LPCSensors (1800) EF5BB9DC-C33F-3EED-9F96-42A7F22D806F <38 13 12 8 6 5 3>
+   74    0 0xffffff7f84152000 0x6a000    0x6a000    com.insanelymac.RealtekRTL8111 (2.2.2) 24D129C7-C25C-3D7B-9E10-EA71D9BE6511 <16 13 6 5 3 1>
+  101    0 0xffffff7f80f9f000 0x7000     0x7000     com.intel.driver.EnergyDriver (3.5.5) 60449181-1B5B-374C-84C4-F81DDE69DAF8 <8 6 5 3>
+  136    0 0xffffff7f80e35000 0xa000     0xa000     com.Cycling74.driver.Soundflower (2) 2D779840-7439-31E5-8A66-D786C3F47B75 <95 6 5 3>
