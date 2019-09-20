@@ -1,7 +1,7 @@
 # MSI-Z77A-G45-Hackintosh
 [GUIDE] Installing macOS Mojave (10.14.x) on MSI Z77A-G45 using Clover UEFI
 
-#### BIOS setting
+#### BIOS settings
 
 ![frst img](/img/bios.png)
 
