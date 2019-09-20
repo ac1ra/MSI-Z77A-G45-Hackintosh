@@ -6,7 +6,7 @@
 ![frst img](/img/bios.png)
 
 Установка MacOS Mojave 10.14.5 (UEFI)
-1) BIOS настроить (см. рис. /Install Tools/BIOS MSI Z77A-G45.png)
+1) BIOS настроить (см. рис.)
 2) Загрузить флешку до появления boot меню
 3) config.plist установлен по умолчанию. В Option переключить на config(Z77A-G45).plist если у вас плата MSI Z77A-G45. Если вы хотите переключить на другую плату, то кинь файл config.plist в EFI/CLOVER.
 4) Устанавливаем MacOS Mojave. Выбираем раздел apfs.
