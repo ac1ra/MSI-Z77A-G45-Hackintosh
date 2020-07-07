@@ -7,7 +7,7 @@ My computer on the base Intel Core i5-3225 with motherboard MSI Z77A-G45. MacOS 
 
 #### Specs
 - **CPU:** Intel Core i3-3225, 3.3 ГГц (dual-core)
-- **RAM:** 2x4 Gb DDR3 Samsung 1333 Mhz
+- **RAM:** 4x4 Gb DDR3 Samsung 1333 Mhz
 - **SSD:** 120 Gb SSD SATA, OSZ Vertex 3
 - **GPU:** Intel HD Graphics HD4000
 - **Ports:** USB2.0/USB3.0/LAN/HDMI/DVI/3'5 Jack
